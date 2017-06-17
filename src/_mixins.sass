@@ -1,0 +1,33 @@
+//Mixins
+
+@mixin transition($args...)
+  -webkit-transition: $args
+  -moz-transition: $args
+  -ms-transition: $args
+  -o-transition: $args
+  transition: $args
+
+@mixin border-radius($args...)
+  -webkit-border-radius: $args
+  -moz-transition: $args
+  -ms-transition: $args
+  -o-transition: $args
+  border-radius: $args
+
+@mixin shadow($args...)
+  -webkit-box-shadow: $args
+  -moz-transition: $args
+  -ms-transition: $args
+  -o-transition: $args
+  box-shadow: $args
+
+@mixin respond($media)
+  @if $media == small
+    @media only screen and (max-width: $screen-small-width)
+      @content
+  @else if $media == medium
+    @media only screen and (max-width: $screen-medium-width)
+      @content
+  @else if $media == wide
+    @media only screen and (max-width: $screen-wide-width)
+      @content
