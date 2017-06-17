@@ -1,0 +1,14 @@
+{
+	"name": "essentails-css",
+	"version": "1.0.0",
+	"description": "Essentials.css front-end framework",
+	"main": "dist/essentials.css",
+	"scripts": {
+
+	},
+	"keywords": [
+		"essentials.css",
+		"essnetials front-end"
+	],
+	"author": "Stefanos Vichas <stefanos@vichas.org>"
+}

@@ -8,6 +8,7 @@
 ## Installisation
 
 <ul>
-	<li>Close rep: `git clone https://github.com/svichas/essentials.css.git`</li>
+	<li>Close repository: <code>git clone https://github.com/svichas/essentials.css.git</code></li>
+	<li>NPM install: <code>npm install essentials.css</code></li>
 </ul>
 
