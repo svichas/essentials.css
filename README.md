@@ -1,5 +1,5 @@
-<p style="text-align: center;">
-	<h1 style="color:#555;">Essentials.css</h1>	
+<p align="center">
+	<h1>Essentials.css</h1>	
 	<p>Front-end framework</p>
 </p>
 
