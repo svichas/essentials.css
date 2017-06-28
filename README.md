@@ -5,7 +5,7 @@
 
 <br>
 
-## Installisation
+## Installation
 
 <ul>
 	<li>Close repository: <code>git clone https://github.com/svichas/essentials.css.git</code></li>
