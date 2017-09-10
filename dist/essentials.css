@@ -436,7 +436,6 @@ a {
   cursor: pointer;
   text-decoration: none; }
   a:hover, a:focus {
-    text-decoration: underline;
     color: #C5EFF7; }
 
 .row {
@@ -600,4 +599,4 @@ a {
 .col-offset-10 {
   margin-left: 100%; }
 
-/*# sourceMappingURL=essnetials.css.map */
+/*# sourceMappingURL=essentials.css.map */
