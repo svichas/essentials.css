@@ -24,7 +24,7 @@ article, aside, footer, header, nav, section {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: .67em 0; }
 
 figcaption, figure, main {
   display: block; }
@@ -38,7 +38,7 @@ hr {
   overflow: visible; }
 
 pre {
-  font-family: monospace, monospace;
+  font-family: monospace,monospace;
   font-size: 1em; }
 
 a {
@@ -57,7 +57,7 @@ b, strong {
   font-weight: bolder; }
 
 code, kbd, samp {
-  font-family: monospace, monospace;
+  font-family: monospace,monospace;
   font-size: 1em; }
 
 dfn {
@@ -156,9 +156,9 @@ template, [hidden] {
 
 .text {
   -webkit-box-shadow: 0px 0px 2px #ccc;
-  -moz-transition: 0px 0px 2px #ccc;
-  -ms-transition: 0px 0px 2px #ccc;
-  -o-transition: 0px 0px 2px #ccc;
+  -moz-box-shadow: 0px 0px 2px #ccc;
+  -ms-box-shadow: 0px 0px 2px #ccc;
+  -o-box-shadow: 0px 0px 2px #ccc;
   box-shadow: 0px 0px 2px #ccc;
   -webkit-transition: shadow, border, background 150ms ease;
   -moz-transition: shadow, border, background 150ms ease;
@@ -166,9 +166,9 @@ template, [hidden] {
   -o-transition: shadow, border, background 150ms ease;
   transition: shadow, border, background 150ms ease;
   -webkit-border-radius: 3px;
-  -moz-transition: 3px;
-  -ms-transition: 3px;
-  -o-transition: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
   margin: 0px;
   font-size: 1em;
@@ -182,9 +182,9 @@ template, [hidden] {
   background: #eee; }
   .text:hover, .text:focus {
     -webkit-box-shadow: 0px 0px 2px 1px #f0f0f0;
-    -moz-transition: 0px 0px 2px 1px #f0f0f0;
-    -ms-transition: 0px 0px 2px 1px #f0f0f0;
-    -o-transition: 0px 0px 2px 1px #f0f0f0;
+    -moz-box-shadow: 0px 0px 2px 1px #f0f0f0;
+    -ms-box-shadow: 0px 0px 2px 1px #f0f0f0;
+    -o-box-shadow: 0px 0px 2px 1px #f0f0f0;
     box-shadow: 0px 0px 2px 1px #f0f0f0;
     border: solid 1px #707070; }
   .text:focus {
@@ -198,9 +198,9 @@ template, [hidden] {
 
 .button {
   -webkit-box-shadow: 0px 0px 2px #ccc;
-  -moz-transition: 0px 0px 2px #ccc;
-  -ms-transition: 0px 0px 2px #ccc;
-  -o-transition: 0px 0px 2px #ccc;
+  -moz-box-shadow: 0px 0px 2px #ccc;
+  -ms-box-shadow: 0px 0px 2px #ccc;
+  -o-box-shadow: 0px 0px 2px #ccc;
   box-shadow: 0px 0px 2px #ccc;
   -webkit-transition: all 150ms ease;
   -moz-transition: all 150ms ease;
@@ -208,9 +208,9 @@ template, [hidden] {
   -o-transition: all 150ms ease;
   transition: all 150ms ease;
   -webkit-border-radius: 3px;
-  -moz-transition: 3px;
-  -ms-transition: 3px;
-  -o-transition: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
   text-shadow: 0px 1px 1px #ccc;
   display: inline-block;
@@ -233,9 +233,9 @@ template, [hidden] {
     background: #f0f0f0; }
   .button:active {
     -webkit-box-shadow: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
     box-shadow: none;
     border-color: transparent;
     text-decoration: none; }
@@ -277,9 +277,9 @@ template, [hidden] {
       border-color: #fff;
       color: #333;
       -webkit-box-shadow: 0px 0px 2px #444;
-      -moz-transition: 0px 0px 2px #444;
-      -ms-transition: 0px 0px 2px #444;
-      -o-transition: 0px 0px 2px #444;
+      -moz-box-shadow: 0px 0px 2px #444;
+      -ms-box-shadow: 0px 0px 2px #444;
+      -o-box-shadow: 0px 0px 2px #444;
       box-shadow: 0px 0px 2px #444; }
     .button.button-white:hover {
       background: #eee;
@@ -304,9 +304,9 @@ template, [hidden] {
     border-color: #ccc;
     border-width: 1px;
     -webkit-border-radius: 1px;
-    -moz-transition: 1px;
-    -ms-transition: 1px;
-    -o-transition: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
     border-radius: 1px;
     background: #eeeeee;
     font-weight: 300; }
@@ -323,14 +323,14 @@ template, [hidden] {
 
 .message {
   -webkit-border-radius: 3px;
-  -moz-transition: 3px;
-  -ms-transition: 3px;
-  -o-transition: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
   -webkit-box-shadow: 1px 1px 3px #ccc;
-  -moz-transition: 1px 1px 3px #ccc;
-  -ms-transition: 1px 1px 3px #ccc;
-  -o-transition: 1px 1px 3px #ccc;
+  -moz-box-shadow: 1px 1px 3px #ccc;
+  -ms-box-shadow: 1px 1px 3px #ccc;
+  -o-box-shadow: 1px 1px 3px #ccc;
   box-shadow: 1px 1px 3px #ccc;
   text-shadow: 0px 1px 1px #ccc;
   background: #e9e9e9;
@@ -417,10 +417,10 @@ h4, .h4 {
   font-size: 1.12em; }
 
 h5, .h5 {
-  font-size: 0.83em; }
+  font-size: .83em; }
 
 h6, .h6 {
-  font-size: 0.75em; }
+  font-size: .75em; }
 
 p, .p {
   color: #333;
@@ -598,5 +598,3 @@ a {
 
 .col-offset-10 {
   margin-left: 100%; }
-
-/*# sourceMappingURL=essentials.css.map */

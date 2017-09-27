@@ -1,14 +1,28 @@
 {
-	"name": "essentials-css",
-	"version": "1.0.0",
-	"description": "Essentials.css front-end framework",
-	"main": "dist/essentials.css",
-	"scripts": {
-
-	},
-	"keywords": [
-		"essentials.css",
-		"essnetials front-end"
-	],
-	"author": "Stefanos Vichas <stefanos@vichas.org>"
+  "name": "essentials.css",
+  "version": "1.0.0",
+  "description": "Light weight front-end framework",
+  "main": "dist/essentials.css\u001b[A\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D.min.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svichas/essentials.css.git"
+  },
+  "keywords": [
+    "css-frameword",
+    "css"
+  ],
+  "author": "svichas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svichas/essentials.css/issues"
+  },
+  "homepage": "https://github.com/svichas/essentials.css#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
 }
