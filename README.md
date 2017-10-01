@@ -19,3 +19,10 @@
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/svichas/essentials.css/bf21a06e/dist/essentials.min.css">
 ```
+
+
+## Disclaimer
+
+<p>
+	essentials.css by default includes Normalize.css (under MIT licence) created by Mark Otto and Jacob Thornton.
+</p>
