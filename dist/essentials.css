@@ -444,14 +444,14 @@ a {
   flex: 0 1 auto;
   flex-direction: row;
   flex-wrap: wrap; }
-  .row .reverse {
+  .row.reverse {
     flex-direction: row-reverse; }
-  .row .center {
+  .row.center {
     align-items: center;
     justify-content: center; }
-  .row .vertical-center {
+  .row.vertical-center {
     align-items: center; }
-  .row .horizontal-center {
+  .row.horizontal-center {
     justify-content: center; }
 
 .col .reverse {
