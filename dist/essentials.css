@@ -467,134 +467,162 @@ a {
   max-width: 100%; }
 
 .col-1 {
-  flex-basis: 10%;
-  max-width: 10%; }
+  flex-basis: 8.33%;
+  max-width: 8.33%; }
   @media only screen and (max-width: 420px) {
     .col-1 {
       flex-basis: 50%;
       max-width: 50%; } }
 
 .col-2 {
-  flex-basis: 20%;
-  max-width: 20%; }
+  flex-basis: 16.66%;
+  max-width: 16.66%; }
   @media only screen and (max-width: 420px) {
     .col-2 {
       flex-basis: 50%;
       max-width: 50%; } }
 
 .col-3 {
-  flex-basis: 30%;
-  max-width: 30%; }
+  flex-basis: 25%;
+  max-width: 25%; }
   @media only screen and (max-width: 420px) {
     .col-3 {
       flex-basis: 50%;
       max-width: 50%; } }
 
 .col-4 {
-  flex-basis: 40%;
-  max-width: 40%; }
+  flex-basis: 33.33%;
+  max-width: 33.33%; }
   @media only screen and (max-width: 420px) {
     .col-4 {
       flex-basis: 50%;
       max-width: 50%; } }
 
 .col-5 {
-  flex-basis: 50%;
-  max-width: 50%; }
+  flex-basis: 41.66%;
+  max-width: 41.66%; }
   @media only screen and (max-width: 420px) {
     .col-5 {
       flex-basis: 100%;
       max-width: 100%; } }
 
 .col-6 {
-  flex-basis: 60%;
-  max-width: 60%; }
+  flex-basis: 50%;
+  max-width: 50%; }
   @media only screen and (max-width: 420px) {
     .col-6 {
       flex-basis: 100%;
       max-width: 100%; } }
 
 .col-7 {
-  flex-basis: 70%;
-  max-width: 70%; }
+  flex-basis: 58.33%;
+  max-width: 58.33%; }
   @media only screen and (max-width: 420px) {
     .col-7 {
       flex-basis: 100%;
       max-width: 100%; } }
 
 .col-8 {
-  flex-basis: 80%;
-  max-width: 80%; }
+  flex-basis: 66.66%;
+  max-width: 66.66%; }
   @media only screen and (max-width: 420px) {
     .col-8 {
       flex-basis: 100%;
       max-width: 100%; } }
 
 .col-9 {
-  flex-basis: 90%;
-  max-width: 90%; }
+  flex-basis: 75%;
+  max-width: 75%; }
   @media only screen and (max-width: 420px) {
     .col-9 {
       flex-basis: 100%;
       max-width: 100%; } }
 
 .col-10 {
+  flex-basis: 83.33%;
+  max-width: 83.33%; }
+  @media only screen and (max-width: 420px) {
+    .col-10 {
+      flex-basis: 100%;
+      max-width: 100%; } }
+
+.col-11 {
+  flex-basis: 91.66%;
+  max-width: 91.66%; }
+  @media only screen and (max-width: 420px) {
+    .col-11 {
+      flex-basis: 100%;
+      max-width: 100%; } }
+
+.col-12 {
   flex-basis: 100%;
   max-width: 100%; }
 
 .col-offset-1 {
-  margin-left: 10%; }
+  margin-left: 8.33%; }
   @media only screen and (max-width: 420px) {
     .col-offset-1 {
       margin-left: 50%; } }
 
 .col-offset-2 {
-  margin-left: 20%; }
+  margin-left: 16.66%; }
   @media only screen and (max-width: 420px) {
     .col-offset-2 {
       margin-left: 50%; } }
 
 .col-offset-3 {
-  margin-left: 30%; }
+  margin-left: 25%; }
   @media only screen and (max-width: 420px) {
     .col-offset-3 {
       margin-left: 50%; } }
 
 .col-offset-4 {
-  margin-left: 40%; }
+  margin-left: 33.33%; }
   @media only screen and (max-width: 420px) {
     .col-offset-4 {
       margin-left: 50%; } }
 
 .col-offset-5 {
-  margin-left: 50%; }
+  margin-left: 41.66%; }
   @media only screen and (max-width: 420px) {
     .col-offset-5 {
       margin-left: 100%; } }
 
 .col-offset-6 {
-  margin-left: 60%; }
+  margin-left: 50%; }
   @media only screen and (max-width: 420px) {
     .col-offset-6 {
       margin-left: 100%; } }
 
 .col-offset-7 {
-  margin-left: 70%; }
+  margin-left: 58.33%; }
   @media only screen and (max-width: 420px) {
     .col-offset-7 {
       margin-left: 100%; } }
 
 .col-offset-8 {
-  margin-left: 80%; }
+  margin-left: 66.66%; }
   @media only screen and (max-width: 420px) {
     .col-offset-8 {
       margin-left: 100%; } }
 
 .col-offset-9 {
-  margin-left: 90%; }
+  margin-left: 75%; }
   @media only screen and (max-width: 420px) {
     .col-offset-9 {
       margin-left: 100%; } }
 
 .col-offset-10 {
+  margin-left: 83.33%; }
+  @media only screen and (max-width: 420px) {
+    .col-offset-10 {
+      margin-left: 100%; } }
+
+.col-offset-11 {
+  margin-left: 91.66%; }
+  @media only screen and (max-width: 420px) {
+    .col-offset-11 {
+      margin-left: 100%; } }
+
+.col-offset-12 {
   margin-left: 100%; }
