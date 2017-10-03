@@ -1,6 +1,5 @@
 <p align="center">
-	<img src="essentials.png" alt="Essentials.css">
-	<p>Front-end framework</p>
+	<img src="essentials.png" alt="Essentials.css" width=100 height=100>
 </p>
 
 <br>
