@@ -140,4 +140,18 @@ Media query
 	.nav-bar {
 		text-align: center;
 	}
+	.nav-bar a {
+		padding: 3px;
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.nav-bar {
+		text-align: center;
+	}
+	.nav-bar a {
+		padding: 0px;
+		font-size: 12px;
+	}
 }
