@@ -24,18 +24,18 @@ $(function() {
 	$(window).scroll(function() {
 
 
-		//var installisation_section = document.getElementById("installisation");
-		//var documentation_section = document.getElementById("documentation");
-		var installisation_section = $("#installisation");
-		var documentation_section = $("#documentation");
+		$(".nav-bar").find("a").each(function() {
+			
+			element = $($(this).attr("href"));
+			$(".nav-bar").find("a").removeClass("focused");
 
-		$(".nav-bar").find("a").removeClass("focused");
+			if (element.isOnScreen()) {
+				$(this).addClass("focused");
+				return false;
+			}
 
-		if (installisation_section.isOnScreen()) {
-			$("a[href='#installisation']").addClass("focused");
-		} else if (documentation_section.isOnScreen()) {
-			$("a[href='#documentation']").addClass("focused");
-		}
+		});
+
 
 
 
