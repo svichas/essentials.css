@@ -1,5 +1,5 @@
 <p align="center">
-	<h1>Essentials.css</h1>	
+	<img src="essentials.png" alt="Essentials.css">
 	<p>Front-end framework</p>
 </p>
 
