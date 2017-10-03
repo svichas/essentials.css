@@ -32,8 +32,8 @@ header .logo-wrapper .logo {
 
 }
 .github-icon {
-	
-	font-size: 22px;
+	padding: 0px !important;
+	font-size: 16px;
 	color: #555 !important;
 	display: inline-block;
 
