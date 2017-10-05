@@ -438,6 +438,14 @@ a {
   a:hover, a:focus {
     color: #C5EFF7; }
 
+.b,
+.bold {
+  font-weight: bold; }
+
+.clearfix:after {
+  clear: both;
+  content: ""; }
+
 .row {
   box-sizing: border-box;
   display: flex;
