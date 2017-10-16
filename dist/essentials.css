@@ -405,26 +405,30 @@ h6 {
   font-weight: 300; }
 
 h1, .h1 {
-  font-size: 3em; }
+  font-size: 46px; }
 
 h2, .h2 {
-  font-size: 1.5em; }
+  font-size: 36px; }
 
 h3, .h3 {
-  font-size: 1.17em; }
+  font-size: 28px; }
 
 h4, .h4 {
-  font-size: 1.12em; }
+  font-size: 22px; }
 
 h5, .h5 {
-  font-size: .83em; }
+  font-size: 18px; }
 
 h6, .h6 {
-  font-size: .75em; }
+  font-size: 14px; }
 
 p, .p {
   color: #333;
   font-size: 14px; }
+
+.b,
+.bold {
+  font-weight: bold; }
 
 a {
   color: #3498db;
@@ -437,10 +441,6 @@ a {
   text-decoration: none; }
   a:hover, a:focus {
     color: #C5EFF7; }
-
-.b,
-.bold {
-  font-weight: bold; }
 
 .clearfix:after {
   clear: both;
