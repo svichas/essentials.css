@@ -4,7 +4,7 @@
 
 <br>
 
-## Installation
+### Installation
 
 <ul>
 	<li>Clone repository: <code>git clone https://github.com/svichas/essentials.css.git</code></li>
@@ -20,7 +20,7 @@
 ```
 
 
-## Documentation
+### Documentation and download page
 
 <a href="https://svichas.github.io/essentials.css/">svichas.github.io/essentials.css</a>
 
