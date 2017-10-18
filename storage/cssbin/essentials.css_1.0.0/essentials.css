@@ -1,4 +1,4 @@
-/*! essentials.css Framework https://github.com/svichas/minimal.css */
+/*! essentials.css Framework https://github.com/svichas/essentials.css */
 /* Colors from Japser framework https://github.com/svichas/Jasper */
 body, html {
   margin: 0px;
@@ -405,26 +405,30 @@ h6 {
   font-weight: 300; }
 
 h1, .h1 {
-  font-size: 3em; }
+  font-size: 46px; }
 
 h2, .h2 {
-  font-size: 1.5em; }
+  font-size: 36px; }
 
 h3, .h3 {
-  font-size: 1.17em; }
+  font-size: 28px; }
 
 h4, .h4 {
-  font-size: 1.12em; }
+  font-size: 22px; }
 
 h5, .h5 {
-  font-size: .83em; }
+  font-size: 18px; }
 
 h6, .h6 {
-  font-size: .75em; }
+  font-size: 14px; }
 
 p, .p {
   color: #333;
   font-size: 14px; }
+
+.b,
+.bold {
+  font-weight: bold; }
 
 a {
   color: #3498db;
@@ -437,6 +441,10 @@ a {
   text-decoration: none; }
   a:hover, a:focus {
     color: #C5EFF7; }
+
+.clearfix:after {
+  clear: both;
+  content: ""; }
 
 .row {
   box-sizing: border-box;
@@ -467,16 +475,16 @@ a {
   max-width: 100%; }
 
 .col-1 {
-  flex-basis: 8.33%;
-  max-width: 8.33%; }
+  flex-basis: 8.33333%;
+  max-width: 8.33333%; }
   @media only screen and (max-width: 420px) {
     .col-1 {
       flex-basis: 50%;
       max-width: 50%; } }
 
 .col-2 {
-  flex-basis: 16.66%;
-  max-width: 16.66%; }
+  flex-basis: 16.66667%;
+  max-width: 16.66667%; }
   @media only screen and (max-width: 420px) {
     .col-2 {
       flex-basis: 50%;
@@ -491,16 +499,16 @@ a {
       max-width: 50%; } }
 
 .col-4 {
-  flex-basis: 33.33%;
-  max-width: 33.33%; }
+  flex-basis: 33.33333%;
+  max-width: 33.33333%; }
   @media only screen and (max-width: 420px) {
     .col-4 {
       flex-basis: 50%;
       max-width: 50%; } }
 
 .col-5 {
-  flex-basis: 41.66%;
-  max-width: 41.66%; }
+  flex-basis: 41.66667%;
+  max-width: 41.66667%; }
   @media only screen and (max-width: 420px) {
     .col-5 {
       flex-basis: 100%;
@@ -515,16 +523,16 @@ a {
       max-width: 100%; } }
 
 .col-7 {
-  flex-basis: 58.33%;
-  max-width: 58.33%; }
+  flex-basis: 58.33333%;
+  max-width: 58.33333%; }
   @media only screen and (max-width: 420px) {
     .col-7 {
       flex-basis: 100%;
       max-width: 100%; } }
 
 .col-8 {
-  flex-basis: 66.66%;
-  max-width: 66.66%; }
+  flex-basis: 66.66667%;
+  max-width: 66.66667%; }
   @media only screen and (max-width: 420px) {
     .col-8 {
       flex-basis: 100%;
@@ -539,16 +547,16 @@ a {
       max-width: 100%; } }
 
 .col-10 {
-  flex-basis: 83.33%;
-  max-width: 83.33%; }
+  flex-basis: 83.33333%;
+  max-width: 83.33333%; }
   @media only screen and (max-width: 420px) {
     .col-10 {
       flex-basis: 100%;
       max-width: 100%; } }
 
 .col-11 {
-  flex-basis: 91.66%;
-  max-width: 91.66%; }
+  flex-basis: 91.66667%;
+  max-width: 91.66667%; }
   @media only screen and (max-width: 420px) {
     .col-11 {
       flex-basis: 100%;
@@ -558,71 +566,71 @@ a {
   flex-basis: 100%;
   max-width: 100%; }
 
-.col-offset-1 {
-  margin-left: 8.33%; }
+.gc-offset-1 {
+  margin-left: 8.33333%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-1 {
+    .gc-offset-1 {
       margin-left: 50%; } }
 
-.col-offset-2 {
-  margin-left: 16.66%; }
+.gc-offset-2 {
+  margin-left: 16.66667%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-2 {
+    .gc-offset-2 {
       margin-left: 50%; } }
 
-.col-offset-3 {
+.gc-offset-3 {
   margin-left: 25%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-3 {
+    .gc-offset-3 {
       margin-left: 50%; } }
 
-.col-offset-4 {
-  margin-left: 33.33%; }
+.gc-offset-4 {
+  margin-left: 33.33333%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-4 {
+    .gc-offset-4 {
       margin-left: 50%; } }
 
-.col-offset-5 {
-  margin-left: 41.66%; }
+.gc-offset-5 {
+  margin-left: 41.66667%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-5 {
+    .gc-offset-5 {
       margin-left: 100%; } }
 
-.col-offset-6 {
+.gc-offset-6 {
   margin-left: 50%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-6 {
+    .gc-offset-6 {
       margin-left: 100%; } }
 
-.col-offset-7 {
-  margin-left: 58.33%; }
+.gc-offset-7 {
+  margin-left: 58.33333%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-7 {
+    .gc-offset-7 {
       margin-left: 100%; } }
 
-.col-offset-8 {
-  margin-left: 66.66%; }
+.gc-offset-8 {
+  margin-left: 66.66667%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-8 {
+    .gc-offset-8 {
       margin-left: 100%; } }
 
-.col-offset-9 {
+.gc-offset-9 {
   margin-left: 75%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-9 {
+    .gc-offset-9 {
       margin-left: 100%; } }
 
-.col-offset-10 {
-  margin-left: 83.33%; }
+.gc-offset-10 {
+  margin-left: 83.33333%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-10 {
+    .gc-offset-10 {
       margin-left: 100%; } }
 
-.col-offset-11 {
-  margin-left: 91.66%; }
+.gc-offset-11 {
+  margin-left: 91.66667%; }
   @media only screen and (max-width: 420px) {
-    .col-offset-11 {
+    .gc-offset-11 {
       margin-left: 100%; } }
 
-.col-offset-12 {
+.gc-offset-12 {
   margin-left: 100%; }
