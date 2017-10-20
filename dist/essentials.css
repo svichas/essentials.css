@@ -393,6 +393,7 @@ template, [hidden] {
       border-width: 0px 0px 2px 0px;
       border-style: solid; }
 
+/* Headers */
 h1,
 h2,
 h3,
@@ -422,6 +423,7 @@ h5, .h5 {
 h6, .h6 {
   font-size: 14px; }
 
+/* Paragraph */
 p, .p {
   color: #333;
   font-size: 14px; }
@@ -441,6 +443,18 @@ a {
   text-decoration: none; }
   a:hover, a:focus {
     color: #C5EFF7; }
+
+.label {
+  color: #fff;
+  background: #c0c0c0;
+  border: 1px solid #eee;
+  border-radius: 2px;
+  box-shadow: 0px 0px 1px #444; }
+  .label.label-red {
+    background: #C91400; }
+  .label.label-white {
+    background: #fff;
+    color: #333; }
 
 .clearfix:after {
   clear: both;

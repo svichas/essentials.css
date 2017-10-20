@@ -1,3 +1,5 @@
+/* Headers */
+
 h1,
 h2,
 h3,
@@ -27,8 +29,10 @@ h5, .h5
 h6, .h6
   font-size: 14px
 
+
+/* Paragraph */
 p, .p
-  color: #333
+  color: $paragraph_color
   font-size: 14px
 
 .b,
@@ -43,3 +47,17 @@ a
   &:hover,
   &:focus
     color: $blue_light
+
+.label
+  color: #fff
+  background: #c0c0c0
+  border: 1px solid #eee
+  border-radius: 2px
+  box-shadow: 0px 0px 1px #444
+
+  &.label-red
+    background: $red
+
+  &.label-white
+    background: #fff
+    color: #333
