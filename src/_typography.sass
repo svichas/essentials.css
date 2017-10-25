@@ -49,11 +49,15 @@ a
     color: $blue_light
 
 .label
+  display: inline-block
   color: #fff
   background: #c0c0c0
-  border: 1px solid #eee
   border-radius: 2px
   box-shadow: 0px 0px 1px #444
+  padding: 2px 5px
+
+  &.label-green
+    background: $green
 
   &.label-red
     background: $red
@@ -61,3 +65,6 @@ a
   &.label-white
     background: #fff
     color: #333
+
+  &.label-yellow
+    background: $yellow
