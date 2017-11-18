@@ -14,10 +14,24 @@
   border-color: $text_border_color
   background: $text_background_color
 
+  &.text-blue
+    background: transparent
+  &.text-blue:focus
+    @include shadow(0px 0px 1px 1px #0074D9)
+    border-color: #0074D9
+
+
+  &.text-classic
+    @include border-radius(0px)
+    border-color: #333
+    color: #333
+
+
   &:hover,
   &:focus
     @include shadow(0px 0px 2px 1px #f0f0f0)
     border: solid 1px #707070
+    color: #222
 
   &:focus
     background: #fff
