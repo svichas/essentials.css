@@ -7,6 +7,7 @@ const rename = require("gulp-rename");
 
 //creating compile task
 gulp.task("compile-sass", function() {
+
 	//compile sass compressed version
 	gulp.src("src/*.sass")
 	.pipe(sass({outputStyle: "compressed"}).on("error", sass.logError))
@@ -23,6 +24,8 @@ gulp.task("compile-sass", function() {
 
 // creating watch task
 gulp.task("sass-watch", function() {
+
 	//watching sass files on src directory
 	gulp.watch("src/*.sass", ["compile-sass"]);
+
 });
