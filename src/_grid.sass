@@ -33,10 +33,10 @@
   max-width: 100%
 
 // create columns
-@for $i from 1 through $grid-colums
+@for $i from 1 through $grid_colums
   .#{col}-#{$i}
-    flex-basis: $i / $grid-colums * 100%
-    max-width: $i / $grid-colums * 100%
+    flex-basis: $i / $grid_colums * 100%
+    max-width: $i / $grid_colums * 100%
 
     @if $i >= 1 and $i <= 4
       @include respond(small)
@@ -49,9 +49,9 @@
         max-width: 100%
 
 // create offset for columns
-@for $i from 1 through $grid-colums
+@for $i from 1 through $grid_colums
     .#{gc-offset}-#{$i}
-        margin-left: $i / $grid-colums * 100%
+        margin-left: $i / $grid_colums * 100%
 
         @if $i >= 1 and $i <= 4
           @include respond(small)

@@ -483,6 +483,44 @@ a {
   clear: both;
   content: ""; }
 
+.navbar {
+  text-align: right;
+  list-style: none;
+  padding: 0px;
+  margin: 0px; }
+  .navbar li {
+    display: inline-block; }
+  .navbar li a {
+    padding: 5px;
+    margin: 0px 2px;
+    color: #333; }
+  @media only screen and (max-width: 720px) {
+    .navbar {
+      text-align: center; } }
+
+.header {
+  height: 64px;
+  line-height: 64px;
+  padding: 0px 60px; }
+  .header img.logo {
+    margin: 7px 0px;
+    height: 50px;
+    width: auto;
+    display: inline-block; }
+  .header > .left {
+    float: left; }
+  .header > .right {
+    float: right; }
+  @media only screen and (max-width: 720px) {
+    .header > .left {
+      display: block;
+      float: none;
+      text-align: center; }
+    .header > .right {
+      display: block;
+      float: none;
+      text-align: center; } }
+
 .row {
   box-sizing: border-box;
   display: flex;
