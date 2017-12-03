@@ -24,9 +24,10 @@ $(function() {
 	$(window).scroll(function() {
 
 
-		$(".nav-bar").find("a").each(function() {
+		$(".nav-bar").find("a.section").each(function() {
 			
-			element = $($(this).attr("href"));
+            let element_attribute = $(this).attr("href");
+			element = $(element_attribute);
 			$(".nav-bar").find("a").removeClass("focused");
 
 			if (element.isOnScreen()) {
@@ -36,11 +37,6 @@ $(function() {
 
 		});
 
-
-
-
 	});
 
-
 });
-hljs.initHighlightingOnLoad();
