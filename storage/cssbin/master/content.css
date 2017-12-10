@@ -36,7 +36,6 @@ header .logo-wrapper .logo {
 	font-size: 16px;
 	color: #555 !important;
 	display: inline-block;
-
 }
 .nav-bar {
 	list-style: none;
@@ -150,6 +149,9 @@ Media query
 	.nav-bar a {
 		padding: 3px;
 		font-size: 14px;
+	}
+	.documentation > section {
+		padding: 120px 0px;
 	}
 }
 
