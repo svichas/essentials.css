@@ -56,7 +56,10 @@ header .logo-wrapper .logo {
 .nav-bar a.focused {
 	border-bottom: 2px solid #333;
 }
-
+article > h2 {
+	border-bottom: 2px solid #eee;
+	padding: 5px;
+}
 
 /*
 Content main section style
