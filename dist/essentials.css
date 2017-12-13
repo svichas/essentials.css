@@ -1,18 +1,4 @@
 /*! essentials.css Framework https://github.com/svichas/essentials.css */
-/* Colors from Japser framework https://github.com/svichas/Jasper */
-body, html {
-  margin: 0px;
-  padding: 0px; }
-
-* {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 300;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-  *:focus {
-    outline: none; }
-
 /*! Normalize.css | https://necolas.github.io/normalize.css/ */
 html {
   line-height: 1.15;
@@ -153,6 +139,20 @@ canvas {
 
 template, [hidden] {
   display: none; }
+
+/* Colors from Japser framework https://github.com/svichas/Jasper */
+body, html {
+  margin: 0px;
+  padding: 0px; }
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+  *:focus {
+    outline: none; }
 
 .text {
   -webkit-box-shadow: 0px 0px 2px #ccc;
@@ -486,7 +486,8 @@ a {
   .label.label-yellow {
     background: #FFE600; }
 
-.clearfix:after {
+.clearfix::after {
+  display: block;
   clear: both;
   content: ""; }
 
