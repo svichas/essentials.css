@@ -1,4 +1,5 @@
 
+// Default button
 .button
   @include shadow(0px 0px 2px #ccc)
   @include transition(all 150ms ease)
@@ -17,7 +18,11 @@
   cursor: pointer
   font-weight: 300
   background: $button_default_background
+  user-select: none
+  white-space: nowrap
+  text-align: center
 
+  // events
   &:hover,
   &:focus
     background: #dddddd
@@ -30,7 +35,8 @@
     @include shadow(none)
     border-color: transparent
     text-decoration: none
-
+  
+  // button sizes
   &.button-large
     padding: 11px 32px 11px 32px
     font-size: 1.3em
@@ -116,3 +122,9 @@
     border-color: #c0c0c0
     color: #fff
     cursor: not-allowed
+
+
+// block button
+.button-block
+  display: block
+  width: 100%

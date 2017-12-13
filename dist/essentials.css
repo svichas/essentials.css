@@ -243,7 +243,10 @@ template, [hidden] {
   padding: 6px 17px 6px 17px;
   cursor: pointer;
   font-weight: 300;
-  background: #f0f0f0; }
+  background: #f0f0f0;
+  user-select: none;
+  white-space: nowrap;
+  text-align: center; }
   .button:hover, .button:focus {
     background: #dddddd;
     color: #666; }
@@ -338,6 +341,10 @@ template, [hidden] {
     border-color: #c0c0c0;
     color: #fff;
     cursor: not-allowed; }
+
+.button-block {
+  display: block;
+  width: 100%; }
 
 .message {
   -webkit-border-radius: 3px;
@@ -487,7 +494,11 @@ a {
   text-align: right;
   list-style: none;
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
   .navbar li {
     display: inline-block; }
   .navbar li a {

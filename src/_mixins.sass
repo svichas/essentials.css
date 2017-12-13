@@ -1,33 +1,7 @@
-//Mixins
+// Import mixins for Mixins folder
 
-@mixin transition($args...)
-  -webkit-transition: $args
-  -moz-transition: $args
-  -ms-transition: $args
-  -o-transition: $args
-  transition: $args
-
-@mixin border-radius($args...)
-  -webkit-border-radius: $args
-  -moz-border-radius: $args
-  -ms-border-radius: $args
-  -o-border-radius: $args
-  border-radius: $args
-
-@mixin shadow($args...)
-  -webkit-box-shadow: $args
-  -moz-box-shadow: $args
-  -ms-box-shadow: $args
-  -o-box-shadow: $args
-  box-shadow: $args
-
-@mixin respond($media)
-  @if $media == small
-    @media only screen and (max-width: $screen-small-width)
-      @content
-  @else if $media == medium
-    @media only screen and (max-width: $screen-medium-width)
-      @content
-  @else if $media == wide
-    @media only screen and (max-width: $screen-wide-width)
-      @content
+@import 'Mixins/border-radius'
+@import 'Mixins/clearfix'
+@import 'Mixins/respond'
+@import 'Mixins/shadow'
+@import 'Mixins/transitions'
