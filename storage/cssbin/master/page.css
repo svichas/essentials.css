@@ -2,14 +2,19 @@ section .content {
 	padding: 10px 5px;
 	color: #444;
 }
-.header { box-shadow: none; }
+.header { box-shadow: none;padding:70px; }
 .command {
 	background: #e0e0e0;
 	color: #333;
 	padding: 2px 4px;
 	border-radius: 2px;
 }
-
+.page-title {
+	margin-top: 40px;
+	padding:50px;
+	font-size:72px;
+	font-weight: 900;
+}
 code {
 	overflow: scroll;
 }
@@ -18,4 +23,22 @@ code {
 .footer > span {
 	font-size: 15px;
 	color: #444;
+}
+
+
+@media screen and (max-width: 880px) {
+	.page-title {
+		padding: 25px;
+		font-size: 38px;
+	}
+}
+@media screen and (max-width: 480px) {
+
+	.page-title {
+		padding: 25px;
+		font-size: 28px;
+	}
+	.header {
+		padding: 10px;
+	}
 }
