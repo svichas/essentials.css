@@ -1,0 +1,21 @@
+section .content {
+	padding: 10px 5px;
+	color: #444;
+}
+.header { box-shadow: none; }
+.command {
+	background: #e0e0e0;
+	color: #333;
+	padding: 2px 4px;
+	border-radius: 2px;
+}
+
+code {
+	overflow: scroll;
+}
+
+.footer { padding: 0 15px; line-height: 60px;background: #fff; }
+.footer > span {
+	font-size: 15px;
+	color: #444;
+}
