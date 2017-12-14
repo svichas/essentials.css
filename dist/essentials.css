@@ -547,6 +547,10 @@ a {
   line-height: 64px;
   padding: 0px 60px;
   background: #ffffff; }
+  .header::after {
+    display: block;
+    clear: both;
+    content: ""; }
   .header img.logo {
     margin: 7px 0px;
     height: 50px;
