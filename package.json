@@ -1,8 +1,8 @@
 {
   "name": "essentials.css",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "Light weight front-end framework",
-  "main": "dist/essentials.css\u001b[A\u001b[B\u001b[D\u001b[D\u001b[D\u001b[D.min.css",
+  "main": "dist/essentials.min.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
