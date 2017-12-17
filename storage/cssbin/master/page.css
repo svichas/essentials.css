@@ -25,6 +25,7 @@ code {
 	color: #444;
 }
 
+.navbar .selected {	border-bottom: 1px solid #333; }
 
 @media screen and (max-width: 880px) {
 	.page-title {
