@@ -8,11 +8,13 @@
 	<link rel="stylesheet" href="storage/cssbin/essentials.css-1.2.0/dist/essentials.min.css">
 	<link rel="stylesheet" href="storage/cssbin/master/page.css">
 </head>
-<body>
-		
+<body style="height: 2000px;">
+	
+	<script src="https://unpkg.com/tippy.js@2.0.8/dist/tippy.all.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script src="storage/jsbin/master.js"></script>
 	<script>hljs.initHighlightingOnLoad();</script>
-
 
 	<div class="page-container">
 	
@@ -32,6 +34,172 @@
 			</div>
 
 		</header>
+
+	
+		<!-- Documentation navigation (Created dynamically by javascript) -->		
+		<ul class="doc-navigation"></ul>
+
+
+		<div class="page-content row horizontal-center"><div class="col-8">
+			
+
+
+			<!-- Section for typography -->
+			<section id="typography">
+				<h2 class="section-title">Typography</h2>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="line"><h1>Heading 1</h1> <small>(46px)</small></div>
+						<div class="line"><h2>Heading 2</h2> <small>(36px)</small></div>
+						<div class="line"><h3>Heading 3</h3> <small>(28px)</small></div>
+						<div class="line"><h4>Heading 4</h4> <small>(22px)</small></div>
+						<div class="line"><h5>Heading 5</h5> <small>(18px)</small></div>
+						<div class="line"><h6>Heading 6</h6> <small>(14px)</small></div>
+
+					</div>
+				</article>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;p&gt;This is a paragraph.&lt;/p&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="line"><p>This is a paragraph.</p></div>
+
+					</div>
+				</article>
+			</section>
+
+
+
+			<!-- Section for buttons -->
+			<section id="buttons">
+				<h2 class="section-title">Buttons</h2>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;button class="button"&gt;Default button&lt;/button&gt;
+&lt;button class="button button-blue"&gt;Blue button&lt;/button&gt;
+&lt;button class="button button-red"&gt;Red button&lt;/button&gt;
+&lt;button class="button button-white"&gt;White button&lt;/button&gt;
+&lt;button class="button button-classic"&gt;Classic button&lt;/button&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+
+
+						<div class="row spaced">
+							
+							<div class="col-4">
+								<button class="button">Default button</button>
+							</div>
+							<div class="col-4">
+								<button class="button button-blue">Blue button</button>
+							</div>
+							<div class="col-4">
+								<button class="button button-red">Red button</button>
+							</div>
+
+						</div>
+
+						<div class="row spaced">
+							
+							<div class="col-4">
+								<button class="button button-white">White button</button>
+							</div>
+							<div class="col-4">
+								<button class="button button-classic">Classic button</button>
+							</div>
+
+						</div>
+
+					</div>
+				</article>
+
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;button class="button button-small"&gt;Button small&lt;/button&gt;
+&lt;button class="button"&gt;Button default&lt;/button&gt;
+&lt;button class="button button-large"&gt;Button large&lt;/button&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="row spaced">
+							
+							<div class="col-4">
+								<button class="button button-small">Button small</button>
+							</div>
+							<div class="col-4">
+								<button class="button">Button default</button>
+							</div>
+							<div class="col-4">
+								<button class="button button-large">Button large</button>
+							</div>
+
+						</div>
+
+
+					</div>
+				</article>
+
+			</section>
+
+
+
+			<!-- Section for message -->
+			<section id="messages">
+				<h2 class="section-title">Messages</h2>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="spaced">
+							<div class="line"><div class="message">Message default</div></div>
+							<div class="line"><div class="message message-error">Message error</div></div>
+							<div class="line"><div class="message message-success">Message success</div></div>
+							<div class="line"><div class="message message-warning">Message warning</div></div>
+						</div>
+
+					</div>
+				</article>
+
+			</section>
+
+
+
+		
+			</div>
+		</div>
+
 
 	</div>
 

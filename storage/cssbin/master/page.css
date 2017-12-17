@@ -1,8 +1,55 @@
+.page-content section > article {
+	padding: 15px 0;
+}
+pre {
+	margin:0px;
+}
+
+section .line h1,
+section .line h2,
+section .line h3,
+section .line h4,
+section .line h5,
+section .line h6 {
+	display: inline-block;
+}
+
 section .content {
 	padding: 10px 5px;
 	color: #444;
 }
+
+section .section-content {
+	padding: 10px;
+}
+section .html {
+	position: relative;
+}
+
+.spaced > * {
+	padding: 5px;
+}
+
+
+section .html .code-icon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	transition: all 200ms ease;
+	cursor: pointer;
+	font-size: 22px;
+}
+section .html .code-icon:hover {
+	transform: scale(1.3);
+}
+.section-article > * {
+	padding: 5px 15px;
+}
+
+
+.navbar .selected {	border-bottom: 1px solid #333; }
 .header { box-shadow: none;padding:70px; }
+
 .command {
 	background: #e0e0e0;
 	color: #333;
@@ -25,8 +72,40 @@ code {
 	color: #444;
 }
 
-.navbar .selected {	border-bottom: 1px solid #333; }
+/*
+Documantation navigation
+*/
+.doc-navigation {
+	position: fixed;
+	display: inline-block;
+	max-width: 200px;
+	width: 14.44%;
+	background: #fff;
+	padding: 10px;
+	margin:10px;
+	border: 1px solid #f0f0f0;
+	box-shadow: 0px 0px 3px #c0c0c0;
+	top: 40%;
+	list-style: none;
+}
+.doc-navigation > li > a {
+	display: inline-block;
+	width: 100%;
+	padding: 4px 2px;
+	border-bottom: 1px solid #c0c0c0;
+	color: #444;
+}
+.doc-navigation > li:last-child > a {
+	border: none;
+}
+.doc-navigation > li > a.focused {
+	font-weight: 900;
+}
 
+
+
+
+/* Media queries */
 @media screen and (max-width: 880px) {
 	.page-title {
 		padding: 25px;
