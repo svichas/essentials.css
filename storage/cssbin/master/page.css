@@ -1,8 +1,17 @@
+.navbar a:not(.selected):hover {
+	color: #888;	
+}
+
+
 .page-content section > article {
 	padding: 15px 0;
 }
 pre {
 	margin:0px;
+}
+
+.html {
+	max-height: 370px;
 }
 
 section .line h1,
@@ -45,7 +54,9 @@ section .html .code-icon:hover {
 .section-article > * {
 	padding: 5px 15px;
 }
-
+.page-content section:first-child {
+	margin-top: 100px;
+}
 
 .navbar .selected {	border-bottom: 1px solid #333; }
 .header { box-shadow: none;padding:70px; }
@@ -102,7 +113,12 @@ Documantation navigation
 	font-weight: 900;
 }
 
-
+.grid [class^="col-"] {
+	padding: 5px;
+	background: #f0f0f0;
+	border: 3px solid #fff;
+	text-align: center;
+}
 
 
 /* Media queries */
@@ -110,6 +126,21 @@ Documantation navigation
 	.page-title {
 		padding: 25px;
 		font-size: 38px;
+	}
+	.doc-navigation {
+		max-width: 90%;
+		margin: 0 auto;
+		position: relative;
+		display: block;
+		width:100%;
+		margin-top: 100px;
+	}
+	.page-content section:first-child {
+		margin-top: 50px;
+	}
+	.col-6 {
+		flex-basis: 100%;
+		max-width: 100%;
 	}
 }
 @media screen and (max-width: 480px) {
