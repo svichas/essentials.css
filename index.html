@@ -1,410 +1,138 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Essentials.css</title>
-
 	<!-- Meta's -->
 	<meta name="description" content="A light weight css framework with essentials assets.">
-
-
-
-	<link rel="icon" href="storage/image/favicon.ico">
-
-	<!-- Link css -->
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="storage/cssbin/essentials.css_1.1.2/essentials.min.css">
-	<link rel="stylesheet" href="storage/cssbin/master/content.css">
-
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<link rel="stylesheet" href="storage/cssbin/essentials.css-1.2.0/dist/essentials.min.css">
+	<link rel="stylesheet" href="storage/cssbin/master/page.css">
+	<link rel="shortcut icon" type="image/png" href="storage/image/favicon.ico"/>
 </head>
 <body>
+	<style>
+		body {
+			min-height: 100vh;
+			position: relative;
+			padding-bottom: 120px;
+		}
+		.footer {
+			position: absolute;
+			bottom: 0px;
+		}
+	</style>
+	
+	<script src="https://unpkg.com/tippy.js@2.0.8/dist/tippy.all.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
 
-	<div class="container">
+	<div class="page-container">
+		
 
-		<!-- Header Section -->
-		<header class="row horizontal-center">
-			<div class="col-8">
-				<div class="row">
-					
-					<div class="col-4 logo-wrapper">
-						<a href="https://github.com/svichas/essentials.css"><div class="logo">Essentials.css</div></a>
-					</div>
-					
-					<nav class="col-8">
-						<ul class="nav-bar">
-							<li><a href="#installisation" class="section">Getting Started</a></li>
-							<li><a href="#documentation" class="section">Documentation</a></li>
-							<li><a href="https://github.com/svichas/essentials.css" class="github-icon"><i class="fa fa-github"></i></a></li>
-						</ul>
-					</nav>
-					
-				</div>
+		<!-- Header section -->
+		<header class="header">
+			
+			<div class="left">
+				<a href="index.html"><div class="logo"><img src="storage/image/logo.png" alt="" style="width:50px;height:50px;"></div></a>
 			</div>
+
+			<div class="right">
+				<ul class="navbar">
+					<li><a href="index.html" class="selected">Home</a></li>
+					<li><a href="documentation.html">Documentation</a></li>
+					<li><a href="https://github.com/svichas/essentials.css" target="_blank" style="font-size: 32px;"><i class="fa fa-github"></i></a></li>
+				</ul>
+			</div>
+
 		</header>
 
 
-		<!-- Main page content -->
-		<div class="main-content-wrapper">
+		<!-- Welcome section -->
+		<section class="row center">
 			
-			<div class="main-content row center">
-				<article class="col-5 main-content-table">
-
-					<div class="line">
-						<h2>Get started with essentials.css</h2>
-					</div>
-
-
-					<div class="line">
-						<p>Download essentials.css and make your life easier.</p>
-					</div>
-
-					<div class="line">
-						<a href="#installisation" class="button button-green button-large">GETTING STARTED</a>
-					</div>
-
-				</article>
-			</div>
-
-
-			<!-- Documentation section -->
-			<div class="row horizontal-center documentation">
+			
+			<div class="col-6" style="text-align: center;">
 				
-
-
-				<!-- installisation Section -->
-
-				<section class="col-8" id="installisation">
-						
-					<h1>Getting Started</h1>
-					<p>There are some ways to get started. First, see all download options available below, then choose the most suitable option for your need. Incase you are looking to quickly add essentials.css to your project use CDN option (Copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt; before all other stylesheets to load our CSS.).</p>
-					
-					<div class="install-with">
-						
-						<div class="row">
-							<div class="col-5">INSTALL WITH NPM:</div>
-							<div class="col-7">npm install essentials.css</div>
-						</div>
-
-						<div class="row">
-							<div class="col-5">USE CDN:</div>
-							<div class="col-7">https://cdn.rawgit.com/svichas/essentials.css/27fd41c5/dist/essentials.min.css</div>
-						</div>
-
-						<div class="row">
-							<div class="col-5">DOWNLOAD LATEST RELEASE:</div>
-							<div class="col-7"><a href="https://github.com/svichas/essentials.css/releases" target="_blank">Download here</a></div>
-						</div>
-
-					</div>
-
-				</section>
-
-				<!-- Documentation Section -->
-				<section class="col-8" id="documentation">
-
-					<h1>Documentation</h1>
-
-
-					<br/><br/>
-
-
-
-					<!-- Typography article -->
-					<article>
-						
-						<h2>Typography:</h2>
-						
-						<p></p>
-						<div class="article-content">
-						<h3>Headings:</h3>
-<h1>Heading 1</h1>
-<h2>Heading 2</h2>
-<h3>Heading 3</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
-
-						</div>
-
-						<div class="article-content">
-							<h3>Paragraph:</h3>
-							<p>This is a paragraph!</p>
-						</div>
-
-
-					</article>
-
-
-
-					<!-- Buttons article -->
-
-
-					<article>
-						
-						<h2>Buttons:</h2>
-
-						<p></p>
-						
-						<div class="article-content">
-
-
-							<div class="row">
-								<div class="col-2"><button class="button">Default button</button></div>
-								<div class="col-2"><button class="button button-blue">Blue button</button></div>
-								<div class="col-2"><button class="button button-green">Green button</button></div>
-								<div class="col-2"><button class="button button-red">Red button</button></div>
-								<div class="col-2"><button class="button button-white">White button</button></div>
-								<div class="col-2"><button class="button button-classic">Classic button</button></div>
-							</div>
-
-						</div>
-
-
-						<div class="article-content">
-							
-							<div class="row">
-								<div class="col-4"><button class="button button-small">Button small</button></div>
-								<div class="col-4"><button class="button">Button default</button></div>
-								<div class="col-4"><button class="button button-large">Button large</button></div>
-							</div>
-
-						</div>
-
-
-					</article>
-
-
-						
-
-					<!-- Messages article -->
-					<article>
-						
-						<h2>Messages:</h2>
-						
-						<div class="article-content">
-							
-							<div class="line"><div class="message">Message default</div></div>
-							<div class="line"><div class="message message-error">Message error</div></div>
-							<div class="line"><div class="message message-success">Message success</div></div>
-							<div class="line"><div class="message message-warning">Message warning</div></div>
-
-						</div>
-
-
-					</article>
-			
-
-
-
-					<!-- Grid system article -->
-					<article>
-						
-						<h2>Grid system:</h2>
-						
-						<div class="article-content">
-							
-							<div class="grid">								
-								<div class="row">
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-									<div class="col-1">col-1</div>
-								</div>
-								<div class="row">
-									<div class="col-2">col-2</div>
-									<div class="col-2">col-2</div>
-									<div class="col-2">col-2</div>
-									<div class="col-2">col-2</div>
-									<div class="col-2">col-2</div>
-									<div class="col-2">col-2</div>
-								</div>
-								<div class="row">
-									<div class="col-3">col-3</div>
-									<div class="col-3">col-3</div>
-									<div class="col-3">col-3</div>
-									<div class="col-3">col-3</div>
-								</div>
-								<div class="row">
-									<div class="col-4">col-4</div>
-									<div class="col-4">col-4</div>
-									<div class="col-4">col-4</div>
-								</div>
-								<div class="row">
-									<div class="col-6">col-6</div>
-									<div class="col-6">col-6</div>
-								</div>
-								<div class="row">
-									<div class="col-7">col-7</div>
-									<div class="col-5">col-5</div>
-								</div>
-								<div class="row">
-									<div class="col-8">col-8</div>
-									<div class="col-4">col-4</div>
-								</div>
-								<div class="row">
-									<div class="col-9">col-9</div>
-									<div class="col-3">col-3</div>
-								</div>
-								<div class="row">
-									<div class="col-10">col-10</div>
-									<div class="col-2">col-2</div>
-								</div>
-								<div class="row">
-									<div class="col-11">col-11</div>
-									<div class="col-1">col-1</div>
-								</div>
-								<div class="row">
-									<div class="col-12">col-12</div>
-								</div>
-							</div>
-						</div>
-
-
-					</article>	
-
-
-
-
-					<!-- Text input article -->
-					<article>
-						
-						<h2>Text input:</h2>
-						
-						<div class="article-content">
-							
-							<div class="line"><input type="text" class="text text-small" placeholder="text text-small"></div>
-							<div class="line"><input type="text" class="text" placeholder="text"></div>
-							<div class="line"><input type="text" class="text text-large" placeholder="text text-large"></div>
-
-							<br>
-	
-							<div>
-								<input type="text" class="text text-classic" placeholder="text text-classic">
-							</div>
-
-
-						</div>
-
-
-					</article>
-
-
-
-
-
-
-
-					<!-- Table article -->
-					<article>
-						
-						<h2>Table:</h2>
-						<div class="article-content">
-							
-							<div class="line"><p>Default table:</p></div>
-							<div class="line">
-								
-								<table class="table">
-									<caption>
-										This is table caption!
-									</caption>
-									<thead>
-										<tr>
-											<th>#ID</th>
-											<th>Name</th>
-											<th>Score</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>Steve Vichas</td>
-											<td>48595</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>George ergios</td>
-											<td>23423</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>Elisa gurberg</td>
-											<td>12334</td>
-										</tr>							
-									</tbody>
-								</table>
-
-							</div>
-							<div class="line"><p>Striped table:</p></div>
-								<div class="line">
-								<table class="table table-striped">
-									<thead>
-										<tr>
-											<th>#ID</th>
-											<th>Name</th>
-											<th>Score</th>
-										</tr>
-									</thead>
-									<tbody>
-										<tr>
-											<td>1</td>
-											<td>Steve Vichas</td>
-											<td>48595</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>George ergios</td>
-											<td>23423</td>
-										</tr>
-										<tr>
-											<td>1</td>
-											<td>Elisa gurberg</td>
-											<td>12334</td>
-										</tr>							
-									</tbody>
-								</table>
-								</div>
-							</div>
-						</div>
-
-
-					</article>
-
-
-
-
-				</section>
-
-
-
-			
-
+				<h1 class="page-title">
+					A Simple Frontend Framework
+				</h1>
 
 			</div>
 
 
+		</section>
 
-		</div>
+
+		<!-- Installitzation section -->
+
+
+		<section class="row horizontal-center"
+			style="background:#f2f1f3;padding:20px;box-shadow: inset 0px 0px 3px #e9e9e9;">
+
+			<div class="col-10 row">
+
+				<div class="col-5">
+			
+					<h2><i class="fa fa-arrow-circle-down" aria-hidden="true"></i> Installization</h2>
 	
+					<div class="content">
+						
+						<p>There are some ways to get started. First, see all download options available below, then choose the most suitable option for your need.</p>
+
+						<ul class="list-spaced">
+							<li>Install with npm: <small class="command">npm install essentials.css</small></li>
+						
+							<li><a href="https://github.com/svichas/essentials.css/releases">Download latest release</a></li>
+						</ul>
+
+					</div>
+	
+
+				</div>
+
+				<div class="col-2"></div>
+				<div class="col-5">
+					<h2><i class="fa fa-bolt" aria-hidden="true"></i> Quick start</h2>
+
+					<div class="content">
+						<p>Incase you are looking to quickly add essentials.css to your project use CDN option (Copy-paste the stylesheet &lt;link&gt; into your &lt;head&gt; before all other stylesheets to load our CSS.).</p>
+
+
+<pre><code class="html">&lt;!-- Open-sans font optional --&gt;
+&lt;link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"&gt;
+&lt;!-- Include essentials.css --&gt;
+&lt;link href="https://cdn.rawgit.com/svichas/essentials.css/6854e48e/dist/essentials.min.css" rel="stylesheet" type="text/css"&gt;</code></pre>
+
+
+
+					</div>
+
+
+				</div>
+
+				
+			</div>
+			
+
+		</section>
+
+
+
+
+		<!-- Footer section -->
+		<footer class="footer">
 		
-
-		<footer>
-			Created by Stefanos Vichas. Under <a href="LICENSE" target="_blank">MIT license</a>.
+			<span>Created by Stefanos Vichas. Under <a href="LICENSE" target="_blank">MIT license</a>.</span>
+			
 		</footer>
-	</div>
 
+	
 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="storage/jsbin/master.js"></script>
-
+	</div>s
+	
 </body>
 </html>

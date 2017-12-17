@@ -1,0 +1,557 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Essentials.css</title>
+
+	<!-- Meta's -->
+	<meta name="description" content="A light weight css framework with essentials assets.">
+
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+	<link rel="stylesheet" href="storage/cssbin/essentials.css-1.2.0/dist/essentials.min.css">
+	<link rel="stylesheet" href="storage/cssbin/master/page.css">
+	<link rel="shortcut icon" type="image/png" href="storage/image/favicon.ico"/>
+</head>
+<body style="padding-bottom: 800px;">
+	
+	<script src="https://unpkg.com/tippy.js@2.0.8/dist/tippy.all.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script src="storage/jsbin/master.js"></script>
+	<script>hljs.initHighlightingOnLoad();</script>
+
+	<div class="page-container">
+	
+
+		<!-- Header section -->
+		<header class="header">
+			
+			<div class="left">
+				<a href="index.html"><div class="logo"><img src="storage/image/logo.png" alt="" style="width:50px;height:50px;"></div></a>
+			</div>
+
+			<div class="right">
+				<ul class="navbar">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="documentation.html" class="selected">Documentation</a></li>
+					<li><a href="https://github.com/svichas/essentials.css" target="_blank" style="font-size: 32px;"><i class="fa fa-github"></i></a></li>
+				</ul>
+			</div>
+
+		</header>
+
+	
+		<!-- Documentation navigation (Created dynamically by javascript) -->		
+		<ul class="doc-navigation"></ul>
+
+
+		<div class="page-content row horizontal-center"><div class="col-8">
+			
+
+
+			<!-- Section for typography -->
+			<section id="typography">
+				<h2 class="section-title">Typography</h2>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="line"><h1>Heading 1</h1> <small>(46px)</small></div>
+						<div class="line"><h2>Heading 2</h2> <small>(36px)</small></div>
+						<div class="line"><h3>Heading 3</h3> <small>(28px)</small></div>
+						<div class="line"><h4>Heading 4</h4> <small>(22px)</small></div>
+						<div class="line"><h5>Heading 5</h5> <small>(18px)</small></div>
+						<div class="line"><h6>Heading 6</h6> <small>(14px)</small></div>
+
+					</div>
+				</article>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;p&gt;This is a paragraph.&lt;/p&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="line"><p>This is a paragraph.</p></div>
+
+					</div>
+				</article>
+			</section>
+
+
+
+			<!-- Section for buttons -->
+			<section id="buttons">
+				<h2 class="section-title">Buttons</h2>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;button class="button"&gt;Default button&lt;/button&gt;
+&lt;button class="button button-blue"&gt;Blue button&lt;/button&gt;
+&lt;button class="button button-red"&gt;Red button&lt;/button&gt;
+&lt;button class="button button-white"&gt;White button&lt;/button&gt;
+&lt;button class="button button-classic"&gt;Classic button&lt;/button&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+
+
+						<div class="row spaced">
+							
+							<div class="col-4">
+								<button class="button">Default button</button>
+							</div>
+							<div class="col-4">
+								<button class="button button-blue">Blue button</button>
+							</div>
+							<div class="col-4">
+								<button class="button button-red">Red button</button>
+							</div>
+
+						</div>
+
+						<div class="row spaced">
+							
+							<div class="col-4">
+								<button class="button button-white">White button</button>
+							</div>
+							<div class="col-4">
+								<button class="button button-classic">Classic button</button>
+							</div>
+
+						</div>
+
+					</div>
+				</article>
+
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;button class="button button-small"&gt;Button small&lt;/button&gt;
+&lt;button class="button"&gt;Button default&lt;/button&gt;
+&lt;button class="button button-large"&gt;Button large&lt;/button&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="row spaced">
+							
+							<div class="col-4">
+								<button class="button button-small">Button small</button>
+							</div>
+							<div class="col-4">
+								<button class="button">Button default</button>
+							</div>
+							<div class="col-4">
+								<button class="button button-large">Button large</button>
+							</div>
+
+						</div>
+
+
+					</div>
+				</article>
+
+			</section>
+
+
+
+
+
+			<!-- Section for buttons -->
+			<section id="text-inputs">
+				<h2 class="section-title">Text inputs</h2>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;input type="text" class="text text-classic" placeholder="Text classic"&gt;
+&lt;input type="text" class="text text-blue" placeholder="Text blue"&gt;
+&lt;input type="text" class="text" placeholder="Text default"&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="spaced">
+							<div class="line"><input type="text" class="text" placeholder="Text default"></div>
+							<div class="line"><input type="text" class="text text-blue" placeholder="Text blue"></div>
+							<div class="line"><input type="text" class="text text-classic" placeholder="Text classic"></div>
+						</div>
+				
+					</div>
+				</article>
+
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;input type="text" class="text text-small" placeholder="Text small"&gt;
+&lt;input type="text" class="text" placeholder="Text default"&gt;
+&lt;input type="text" class="text text-large" placeholder="Text large"&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="spaced">
+
+							<div class="line"><input type="text" class="text text-small" placeholder="Text small"></div>
+							<div class="line"><input type="text" class="text" placeholder="Text default"></div>
+							<div class="line"><input type="text" class="text text-large" placeholder="Text large"></div>
+
+						</div>
+
+
+					</div>
+				</article>
+
+			</section>
+
+
+
+
+
+			<!-- Section for message -->
+			<section id="messages">
+				<h2 class="section-title">Messages</h2>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="spaced">
+							<div class="line"><div class="message">Message default</div></div>
+							<div class="line"><div class="message message-error">Message error</div></div>
+							<div class="line"><div class="message message-success">Message success</div></div>
+							<div class="line"><div class="message message-warning">Message warning</div></div>
+						</div>
+
+					</div>
+				</article>
+
+			</section>
+
+
+
+			<!-- Section for grid -->
+			<section id="grid">
+				<h2 class="section-title">Grid</h2>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;div class="grid"&gt;								
+	&lt;div class="row"&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-2"&gt;col-2&lt;/div&gt;
+		&lt;div class="col-2"&gt;col-2&lt;/div&gt;
+		&lt;div class="col-2"&gt;col-2&lt;/div&gt;
+		&lt;div class="col-2"&gt;col-2&lt;/div&gt;
+		&lt;div class="col-2"&gt;col-2&lt;/div&gt;
+		&lt;div class="col-2"&gt;col-2&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-3"&gt;col-3&lt;/div&gt;
+		&lt;div class="col-3"&gt;col-3&lt;/div&gt;
+		&lt;div class="col-3"&gt;col-3&lt;/div&gt;
+		&lt;div class="col-3"&gt;col-3&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-4"&gt;col-4&lt;/div&gt;
+		&lt;div class="col-4"&gt;col-4&lt;/div&gt;
+		&lt;div class="col-4"&gt;col-4&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-6"&gt;col-6&lt;/div&gt;
+		&lt;div class="col-6"&gt;col-6&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-7"&gt;col-7&lt;/div&gt;
+		&lt;div class="col-5"&gt;col-5&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-8"&gt;col-8&lt;/div&gt;
+		&lt;div class="col-4"&gt;col-4&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-9"&gt;col-9&lt;/div&gt;
+		&lt;div class="col-3"&gt;col-3&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-10"&gt;col-10&lt;/div&gt;
+		&lt;div class="col-2"&gt;col-2&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-11"&gt;col-11&lt;/div&gt;
+		&lt;div class="col-1"&gt;col-1&lt;/div&gt;
+	&lt;/div&gt;
+	&lt;div class="row"&gt;
+		&lt;div class="col-12"&gt;col-12&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/div&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<div class="grid">								
+							<div class="row">
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+								<div class="col-1">col-1</div>
+							</div>
+							<div class="row">
+								<div class="col-2">col-2</div>
+								<div class="col-2">col-2</div>
+								<div class="col-2">col-2</div>
+								<div class="col-2">col-2</div>
+								<div class="col-2">col-2</div>
+								<div class="col-2">col-2</div>
+							</div>
+							<div class="row">
+								<div class="col-3">col-3</div>
+								<div class="col-3">col-3</div>
+								<div class="col-3">col-3</div>
+								<div class="col-3">col-3</div>
+							</div>
+							<div class="row">
+								<div class="col-4">col-4</div>
+								<div class="col-4">col-4</div>
+								<div class="col-4">col-4</div>
+							</div>
+							<div class="row">
+								<div class="col-6">col-6</div>
+								<div class="col-6">col-6</div>
+							</div>
+							<div class="row">
+								<div class="col-7">col-7</div>
+								<div class="col-5">col-5</div>
+							</div>
+							<div class="row">
+								<div class="col-8">col-8</div>
+								<div class="col-4">col-4</div>
+							</div>
+							<div class="row">
+								<div class="col-9">col-9</div>
+								<div class="col-3">col-3</div>
+							</div>
+							<div class="row">
+								<div class="col-10">col-10</div>
+								<div class="col-2">col-2</div>
+							</div>
+							<div class="row">
+								<div class="col-11">col-11</div>
+								<div class="col-1">col-1</div>
+							</div>
+							<div class="row">
+								<div class="col-12">col-12</div>
+							</div>
+						</div>
+
+					</div>
+				</article>
+
+			</section>
+
+
+
+
+			<!-- Section for tables -->
+			<section id="table">
+				<h2 class="section-title">Table</h2>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;table class="table"&gt;
+	&lt;thead&gt;
+		&lt;th&gt;#id&lt;/th&gt;
+		&lt;th&gt;first name&lt;/th&gt;
+		&lt;th&gt;last name&lt;/th&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;1&lt;/td&gt;
+			&lt;td&gt;Stefanos&lt;/td&gt;
+			&lt;td&gt;Vichas&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;2&lt;/td&gt;
+			&lt;td&gt;Ebony&lt;/td&gt;
+			&lt;td&gt;Powers&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;3&lt;/td&gt;
+			&lt;td&gt;Winston&lt;/td&gt;
+			&lt;td&gt;Craig&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;4&lt;/td&gt;
+			&lt;td&gt;Arthur&lt;/td&gt;
+			&lt;td&gt;Lopez&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						<table class="table">
+							<thead>
+								<th>#id</th>
+								<th>first name</th>
+								<th>last name</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Stefanos</td>
+									<td>Vichas</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Ebony</td>
+									<td>Powers</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Winston</td>
+									<td>Craig</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Arthur</td>
+									<td>Lopez</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</article>
+				<article class="row section-article">
+					<div class="col-6">
+
+<pre><code class="html">&lt;table class="table table-striped"&gt;
+	&lt;thead&gt;
+		&lt;th&gt;#id&lt;/th&gt;
+		&lt;th&gt;first name&lt;/th&gt;
+		&lt;th&gt;last name&lt;/th&gt;
+	&lt;/thead&gt;
+	&lt;tbody&gt;
+		&lt;tr&gt;
+			&lt;td&gt;1&lt;/td&gt;
+			&lt;td&gt;Stefanos&lt;/td&gt;
+			&lt;td&gt;Vichas&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;2&lt;/td&gt;
+			&lt;td&gt;Ebony&lt;/td&gt;
+			&lt;td&gt;Powers&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;3&lt;/td&gt;
+			&lt;td&gt;Winston&lt;/td&gt;
+			&lt;td&gt;Craig&lt;/td&gt;
+		&lt;/tr&gt;
+		&lt;tr&gt;
+			&lt;td&gt;4&lt;/td&gt;
+			&lt;td&gt;Arthur&lt;/td&gt;
+			&lt;td&gt;Lopez&lt;/td&gt;
+		&lt;/tr&gt;
+	&lt;/tbody&gt;
+&lt;/table&gt;<div class="code-icon" title="Source code"><i class="fa fa-code" aria-hidden="true"></i></div></code></pre>
+
+
+					</div>
+					<div class="col-6">
+						
+						<table class="table table-striped">
+							<thead>
+								<th>#id</th>
+								<th>first name</th>
+								<th>last name</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>Stefanos</td>
+									<td>Vichas</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>Ebony</td>
+									<td>Powers</td>
+								</tr>
+								<tr>
+									<td>3</td>
+									<td>Winston</td>
+									<td>Craig</td>
+								</tr>
+								<tr>
+									<td>4</td>
+									<td>Arthur</td>
+									<td>Lopez</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</article>
+			</section>
+
+
+		
+			</div>
+		</div>
+
+
+	</div>
+
+</body>
+</html>
+
+
+

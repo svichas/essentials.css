@@ -2,8 +2,6 @@ $.fn.isOnScreen = function(){
 
     var win = $(window);
 
-   	if (win.scrollTop() < 199) return false;
-
     var viewport = {
         top : win.scrollTop()+60,
         left : win.scrollLeft()
@@ -15,29 +13,57 @@ $.fn.isOnScreen = function(){
     bounds.right = bounds.left + this.outerWidth();
     bounds.bottom = bounds.top + this.outerHeight();
 
-    return (!(viewport.right < bounds.left || viewport.left > bounds.right || viewport.bottom < bounds.top || viewport.top > bounds.bottom));
+    return (!(viewport.bottom < bounds.top || viewport.top > bounds.bottom));
 
 };
+
 
 $(function() {
 
 
-	$(window).scroll(function() {
+    $(window).scroll(function() {
 
+        var section_links = $(".doc-navigation").find("a");
+        section_links.removeClass("focused");
 
-		$(".nav-bar").find("a.section").each(function() {
-			
+        section_links.each(function() {
+          
             let element_attribute = $(this).attr("href");
-			element = $(element_attribute);
-			$(".nav-bar").find("a").removeClass("focused");
+            element = $(element_attribute);
 
-			if (element.isOnScreen()) {
-				$(this).addClass("focused");
-				return false;
-			}
+            if (element.isOnScreen()) {
+                $(this).addClass("focused");
+                return false;
+            }
 
-		});
+        });
 
-	});
+    });
+
+    $(".page-content").find("section").each(function() {
+
+        var nav_link = $("<li/>",{                  
+        });
+
+        nav_link.append($("<a/>", {
+            "html": $(this).find(".section-title").html(),
+            "href": "#" + $(this).attr("id")
+        }));
+
+
+        $(".doc-navigation").append(nav_link);
+
+
+    });
+
+
+
+    tippy('.code-icon', {
+        placement: 'bottom',
+        animation: 'scale',
+        duration: 150,
+        arrow: true
+    })
+
 
 });

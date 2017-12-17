@@ -1,0 +1,44 @@
+
+.text
+  @include shadow(0px 0px 2px $text_shadow_color)
+  @include transition(shadow,border,background 150ms ease)
+  @include border-radius($text_border_radius)
+  margin: $text_margin
+  font-size: 1em
+  appearance: none
+  box-shadow: none
+  color: $text_color
+  padding: $text_padding
+  border-width: $text_border_width
+  border-style: solid
+  border-color: $text_border_color
+  background: $text_background_color
+
+  &.text-blue
+    background: transparent
+  &.text-blue:focus
+    @include shadow(0px 0px 1px 1px #0074D9)
+    border-color: $text_blue_color
+
+  &.text-classic
+    @include border-radius(0px)
+    border-color: $text_classic_color
+    color: $text_classic_color
+
+
+  &:hover,
+  &:focus
+    @include shadow(0px 0px 2px 1px #f0f0f0)
+    border: solid 1px #707070
+    color: #222
+
+  &:focus
+    background: #fff
+
+  &.text-small
+    font-size: 0.7em
+    padding: 3px 3px
+
+  &.text-large
+    font-size: 1.3em
+    padding: 12px
