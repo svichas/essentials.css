@@ -54,6 +54,9 @@ section .html .code-icon:hover {
 .section-article > * {
 	padding: 5px 15px;
 }
+.page-content section {
+	margin-top: 50px;
+}
 .page-content section:first-child {
 	margin-top: 100px;
 }
