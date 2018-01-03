@@ -21,16 +21,15 @@ $ npm install essentials.css
 ```
 
 
-**Download latest release**
-
-<a href="https://github.com/svichas/essentials.css/releases">here</a>
-
-
 **Install with CDN**
 
 ```html
 https://cdn.rawgit.com/svichas/essentials.css/0e5596c0/dist/essentials.min.css
 ```
+
+**Download latest release**
+
+<a href="https://github.com/svichas/essentials.css/releases">here</a>
 
 
 ## Usage
