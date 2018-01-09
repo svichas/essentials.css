@@ -11,8 +11,9 @@
     "url": "git+https://github.com/svichas/essentials.css.git"
   },
   "keywords": [
-    "css-frameword",
-    "css"
+    "css-framework",
+    "css",
+    "essentials.css"
   ],
   "author": "svichas",
   "license": "MIT",
