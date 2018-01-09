@@ -2,6 +2,8 @@
 	<img src="essentials.png" alt="Essentials.css" width=100 height=100>
 </p>
 
+[![npm](https://img.shields.io/npm/v/npm.svg)](https://www.npmjs.com/package/essentials.css)
+
 <br>
 
 ## Installation
