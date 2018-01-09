@@ -2,6 +2,8 @@
 	<img src="essentials.png" alt="Essentials.css" width=100 height=100>
 </p>
 
+
+[![npm](https://img.shields.io/npm/v/essentials.css.svg)](https://www.npmjs.com/package/essentials.css)
 [![GitHub license](https://img.shields.io/github/license/svichas/essentials.css.svg)](https://github.com/svichas/essentials.css/blob/master/LICENSE)
 
 ## Installation
