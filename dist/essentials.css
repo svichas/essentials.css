@@ -143,10 +143,10 @@ template, [hidden] {
 /* Colors from Japser framework https://github.com/svichas/Jasper */
 body, html {
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  font-family: "Open Sans", sans-serif; }
 
 * {
-  font-family: "Open Sans", sans-serif;
   font-weight: 300;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -170,6 +170,7 @@ body, html {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
+  font-family: "Open Sans", sans-serif;
   margin: 0px;
   font-size: 1em;
   appearance: none;
@@ -230,6 +231,7 @@ body, html {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
+  font-family: "Open Sans", sans-serif;
   text-shadow: 0px 1px 1px #ccc;
   display: inline-block;
   line-height: 1.2em;
@@ -357,6 +359,7 @@ body, html {
   -ms-box-shadow: 1px 1px 3px #ccc;
   -o-box-shadow: 1px 1px 3px #ccc;
   box-shadow: 1px 1px 3px #ccc;
+  font-family: "Open Sans", sans-serif;
   text-shadow: 0px 1px 1px #ccc;
   background: #e9e9e9;
   padding: 10px;
@@ -377,6 +380,7 @@ body, html {
     background: #FFE600; }
 
 .table {
+  font-family: "Open Sans", sans-serif;
   width: 100%;
   max-width: 100%;
   margin: 0px 0px 5px 0px;
@@ -431,21 +435,27 @@ h6 {
   font-weight: 300; }
 
 h1, .h1 {
+  font-family: "Open Sans", sans-serif;
   font-size: 46px; }
 
 h2, .h2 {
+  font-family: "Open Sans", sans-serif;
   font-size: 36px; }
 
 h3, .h3 {
+  font-family: "Open Sans", sans-serif;
   font-size: 28px; }
 
 h4, .h4 {
+  font-family: "Open Sans", sans-serif;
   font-size: 22px; }
 
 h5, .h5 {
+  font-family: "Open Sans", sans-serif;
   font-size: 18px; }
 
 h6, .h6 {
+  font-family: "Open Sans", sans-serif;
   font-size: 14px; }
 
 /* Paragraph */
@@ -458,6 +468,7 @@ p, .p {
   font-weight: bold; }
 
 a {
+  font-family: "Open Sans", sans-serif;
   color: #3498db;
   -webkit-transition: color 200ms ease;
   -moz-transition: color 200ms ease;
@@ -470,6 +481,7 @@ a {
     color: #C5EFF7; }
 
 .label {
+  font-family: "Open Sans", sans-serif;
   display: inline-block;
   color: #fff;
   background: #c0c0c0;
@@ -505,6 +517,7 @@ a {
   border: 0; }
 
 .navbar {
+  font-family: "Open Sans", sans-serif;
   text-align: right;
   list-style: none;
   padding: 0px;
@@ -516,6 +529,7 @@ a {
   .navbar li {
     display: inline-block; }
   .navbar li a {
+    font-family: "Open Sans", sans-serif;
     padding: 5px;
     margin: 0px 2px;
     color: #333; }
