@@ -20,7 +20,8 @@ $.fn.isOnScreen = function(){
 
 $(function() {
 
-
+    hljs.initHighlightingOnLoad();
+    
     $(window).scroll(function() {
 
         var section_links = $(".doc-navigation").find("a");
