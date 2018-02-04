@@ -38,25 +38,43 @@
     flex-basis: $i / $grid_colums * 100%
     max-width: $i / $grid_colums * 100%
 
+// for media responces
+
+// responed medium
+@include respond(medium)
+  @for $i from 1 through $grid_colums
     @if $i >= 1 and $i <= 4
-      @include respond(small)
+      .#{col}-#{$i}
         flex-basis: 50%
         max-width: 50%
 
+// responed small
+@include respond(small)
+  @for $i from 1 through $grid_colums
     @if $i > 4 and $i <= 11
-      @include respond(small)
+      .#{col}-#{$i}
         flex-basis: 100%
         max-width: 100%
+
 
 // create offset for columns
 @for $i from 1 through $grid_colums
     .#{gc-offset}-#{$i}
         margin-left: $i / $grid_colums * 100%
 
-        @if $i >= 1 and $i <= 4
-          @include respond(small)
-            margin-left: 50%
 
-        @if $i > 4 and $i <= 11
-          @include respond(small)
-            margin-left: 100%
+// for media responces
+
+// responed medium
+@include respond(medium)
+  @for $i from 1 through $grid_colums
+    @if $i >= 1 and $i <= 4
+      .#{gc-offset}-#{$i}
+        margin-left: 50%
+
+// responed small
+@include respond(small)
+  @for $i from 1 through $grid_colums
+    @if $i > 4 and $i <= 11
+      .#{gc-offset}-#{$i}
+        margin-left: 100%
