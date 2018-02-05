@@ -23,14 +23,28 @@
 			position: absolute;
 			bottom: 0px;
 		}
+		#wlcm_element {
+			font-size: 22px;
+			font-weight: bold;
+			color: #303030;
+		}
 	</style>
 	
 	<script src="https://unpkg.com/tippy.js@2.0.8/dist/tippy.all.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+	<script src="storage/jsbin/wlcm.js"></script>
 	<script src="storage/jsbin/master.js"></script>
 	<script>
 		hljs.initHighlightingOnLoad();
+		$(function() {
+			wlcm_elem = document.querySelector(".wlcm");
+			wlcm_elem.wlcm({
+				"words": ["css framework", "simple", "css", "essentials.css", "mobile friendly"],
+				"min_speed": 2,
+				"max_speed": 4
+			});
+		});
 	</script>
 
 	<div class="page-container">
@@ -55,12 +69,12 @@
 
 
 		<!-- Welcome section -->
-		<section class="row center">
+		<section class="row center wlcm">
 			
 			
 			<div class="col-6" style="text-align: center;">
 				
-				<h1 class="page-title">
+				<h1 class="page-title" style="z-index: 1000;">
 					A Simple Frontend Framework
 				</h1>
 
