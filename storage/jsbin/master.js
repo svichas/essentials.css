@@ -19,8 +19,6 @@ $.fn.isOnScreen = function(){
 
 
 $(function() {
-
-    hljs.initHighlightingOnLoad();
     
     $(window).scroll(function() {
 
