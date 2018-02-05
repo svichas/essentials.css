@@ -26,7 +26,7 @@ $ npm install essentials.css
 **Install with CDN**
 
 ```html
-https://cdn.rawgit.com/svichas/essentials.css/0e5596c0/dist/essentials.min.css
+https://unpkg.com/essentials.css@1.2.7/dist/essentials.min.css
 ```
 
 **Download latest release**
@@ -42,7 +42,7 @@ https://cdn.rawgit.com/svichas/essentials.css/0e5596c0/dist/essentials.min.css
 <!-- Open-sans font optional -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <!-- Essentials.css framework -->
-<link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/svichas/essentials.css/0e5596c0/dist/essentials.min.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/essentials.css@1.2.7/dist/essentials.min.css">
 ```
 
 
