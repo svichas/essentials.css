@@ -20,6 +20,30 @@ $.fn.isOnScreen = function(){
 
 $(function() {
     
+    /**
+    * Copy cdn option
+    */
+    $("#copy-cdn-html").click(function(e) {
+
+
+        var copied = $(this).parent().find(".copied");
+        //copyText = document.getElementById("cdn-html");
+        //copyText.select();
+        copied.fadeIn(300, function() {
+            setTimeout(function() {
+                copied.fadeOut(300);
+            },200);
+        });
+        selectText("cdn-html");
+        document.execCommand("Copy");
+        //alert("Copied the text: " + copyText.value);
+
+    });
+    
+
+    /**
+    * Documentation navigations sections
+    */ 
     $(window).scroll(function() {
 
         var section_links = $(".doc-navigation").find("a");
@@ -66,3 +90,19 @@ $(function() {
 
 
 });
+
+
+
+function selectText(containerid) {
+    if (document.selection) {
+        var range = document.body.createTextRange();
+        range.moveToElementText(document.getElementById(containerid));
+        range.select();
+    } else if (window.getSelection) {
+        var range = document.createRange();
+        range.selectNode(document.getElementById(containerid));
+        window.getSelection().removeAllRanges();
+        window.getSelection().addRange(range);
+    }
+    return false;
+}
