@@ -670,10 +670,8 @@ a {
     flex-basis: 50%;
     max-width: 50%; }
   .col-4 {
-    flex-basis: 50%;
-    max-width: 50%; } }
-
-@media only screen and (max-width: 420px) {
+    flex-basis: 100%;
+    max-width: 100%; }
   .col-5 {
     flex-basis: 100%;
     max-width: 100%; }
@@ -693,6 +691,44 @@ a {
     flex-basis: 100%;
     max-width: 100%; }
   .col-11 {
+    flex-basis: 100%;
+    max-width: 100%; } }
+
+@media only screen and (max-width: 420px) {
+  .col-1 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-2 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-3 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-4 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-5 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-6 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-7 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-8 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-9 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-10 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-11 {
+    flex-basis: 100%;
+    max-width: 100%; }
+  .col-12 {
     flex-basis: 100%;
     max-width: 100%; } }
 
