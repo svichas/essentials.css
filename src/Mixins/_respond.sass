@@ -1,6 +1,9 @@
 // Mixin for respond for different resolutions
 @mixin respond($media)
-  @if $media == small
+  @if $media == extra-small
+  	@media only screen and (max-width: $screen-extra-small-width)
+      @content
+  @else if $media == small
     @media only screen and (max-width: $screen-small-width)
       @content
   @else if $media == medium

@@ -31,58 +31,94 @@
   flex-grow: 1
   flex-basis: 0
   max-width: 100%
-//
-// Grid columns classes
-//
+
+
+// grid columns
 @for $i from 1 through $grid_colums
   .#{col}-#{$i}
     flex-basis: $i / $grid_colums * 100%
     max-width: $i / $grid_colums * 100%
+  .#{col}-xs-#{$i}
+    flex-basis: $i / $grid_colums * 100%
+    max-width: $i / $grid_colums * 100%
+  .#{col}-sm-#{$i}
+    flex-basis: $i / $grid_colums * 100%
+    max-width: $i / $grid_colums * 100%
+  .#{col}-md-#{$i}
+    flex-basis: $i / $grid_colums * 100%
+    max-width: $i / $grid_colums * 100%
+  .#{col}-wd-#{$i}
+    flex-basis: $i / $grid_colums * 100%
+    max-width: $i / $grid_colums * 100%
 
-// for media responces
+
+// responed wide
+@include respond(wide)
+  @for $i from 1 through $grid_colums
+    .#{col}-wd-#{$i}
+      flex-basis: $i / $grid_colums * 100%
+      max-width: $i / $grid_colums * 100%
 
 // responed medium
 @include respond(medium)
   @for $i from 1 through $grid_colums
-    @if $i >= 1 and $i <= 3
-      .#{col}-#{$i}
-        flex-basis: 50%
-        max-width: 50%
-    @if $i > 3 and $i <= 11
-      .#{col}-#{$i}
-        flex-basis: 100%
-        max-width: 100%
+    .#{col}-md-#{$i}
+      flex-basis: $i / $grid_colums * 100%
+      max-width: $i / $grid_colums * 100%
 
-// responed small
+// responed medium
 @include respond(small)
   @for $i from 1 through $grid_colums
-    .#{col}-#{$i}
-      flex-basis: 100%
-      max-width: 100%
+    .#{col}-sm-#{$i}
+      flex-basis: $i / $grid_colums * 100%
+      max-width: $i / $grid_colums * 100%
+
+// responed medium
+@include respond(extra-small)
+  @for $i from 1 through $grid_colums
+    .#{col}-xs-#{$i}
+      flex-basis: $i / $grid_colums * 100%
+      max-width: $i / $grid_colums * 100%
 
 
 
 //
-// Offset grid classes
+// Offsets
 //
 
 @for $i from 1 through $grid_colums
-    .#{gc-offset}-#{$i}
-        margin-left: $i / $grid_colums * 100%
+  .#{offset}-#{$i}
+    margin-left: $i / $grid_colums * 100%
+  .#{offset}-xs-#{$i}
+    margin-left: $i / $grid_colums * 100%
+  .#{offset}-sm-#{$i}
+    margin-left: $i / $grid_colums * 100%
+  .#{offset}-md-#{$i}
+    margin-left: $i / $grid_colums * 100%
+  .#{offset}-wd-#{$i}
+    margin-left: $i / $grid_colums * 100%
 
 
-// for media responces
+// responed wide
+@include respond(wide)
+  @for $i from 1 through $grid_colums
+    .#{offset}-wd-#{$i}
+      margin-left: $i / $grid_colums * 100%
 
 // responed medium
 @include respond(medium)
   @for $i from 1 through $grid_colums
-    @if $i >= 1 and $i <= 4
-      .#{gc-offset}-#{$i}
-        margin-left: 50%
+    .#{offset}-md-#{$i}
+      margin-left: $i / $grid_colums * 100%
 
-// responed small
+// responed medium
 @include respond(small)
   @for $i from 1 through $grid_colums
-    @if $i > 4 and $i <= 11
-      .#{gc-offset}-#{$i}
-        margin-left: 100%
+    .#{offset}-sm-#{$i}
+      margin-left: $i / $grid_colums * 100%
+
+// responed medium
+@include respond(extra-small)
+  @for $i from 1 through $grid_colums
+    .#{offset}-xs-#{$i}
+      margin-left: $i / $grid_colums * 100%
