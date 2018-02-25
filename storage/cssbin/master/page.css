@@ -9,7 +9,6 @@
 	color:#fff;
 }
 
-
 .navbar a:not(.selected):hover {
 	color: #888;	
 }
