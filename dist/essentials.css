@@ -536,7 +536,7 @@ a {
     padding: 5px;
     margin: 0px 2px;
     color: #333; }
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 920px) {
     .navbar {
       text-align: center; } }
 
@@ -576,7 +576,7 @@ a {
     float: left; }
   .header > .right {
     float: right; }
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 920px) {
     .header > .left {
       display: block;
       float: none;
@@ -892,7 +892,7 @@ a {
     flex-basis: 100%;
     max-width: 100%; } }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 920px) {
   .col-md-1 {
     flex-basis: 8.33333%;
     max-width: 8.33333%; }
@@ -930,7 +930,7 @@ a {
     flex-basis: 100%;
     max-width: 100%; } }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 720px) {
   .col-sm-1 {
     flex-basis: 8.33333%;
     max-width: 8.33333%; }
@@ -968,7 +968,7 @@ a {
     flex-basis: 100%;
     max-width: 100%; } }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .col-xs-1 {
     flex-basis: 8.33333%;
     max-width: 8.33333%; }
@@ -1212,7 +1212,7 @@ a {
   .offset-wd-12 {
     margin-left: 100%; } }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 920px) {
   .offset-md-1 {
     margin-left: 8.33333%; }
   .offset-md-2 {
@@ -1238,7 +1238,7 @@ a {
   .offset-md-12 {
     margin-left: 100%; } }
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 720px) {
   .offset-sm-1 {
     margin-left: 8.33333%; }
   .offset-sm-2 {
@@ -1264,7 +1264,7 @@ a {
   .offset-sm-12 {
     margin-left: 100%; } }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 420px) {
   .offset-xs-1 {
     margin-left: 8.33333%; }
   .offset-xs-2 {
