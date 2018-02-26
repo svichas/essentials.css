@@ -26,7 +26,7 @@ $ npm install essentials.css
 **Install with CDN**
 
 ```html
-https://unpkg.com/essentials.css@1.3.0/dist/essentials.min.css
+https://unpkg.com/essentials.css@1.3.1/dist/essentials.min.css
 ```
 
 **Download latest release**
