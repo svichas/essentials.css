@@ -62,6 +62,11 @@ $ git clone https://github.com/svichas/essentials.css.git
 <a href="https://svichas.github.io/essentials.css/">svichas.github.io/essentials.css</a>
 
 
+## Contributing
+
+<a href="contributing.md">Click here to see Contributing guidelines.</a>
+
+
 ## License
 
 <p>Created by <a href="https://github.com/svichas">Stefanos Vichas</a>. Licensed under the MIT License.</p>
