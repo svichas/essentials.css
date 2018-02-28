@@ -8,7 +8,7 @@
 
 
 ## Why essentials.css
-Essentials.css is a simple & minimal CSS frame work. It includes <a href="https://necolas.github.io/normalize.css/">Normalize.css</a> for rendering all elements more consistently and in line with modern standards. Also essentials.css is a light-weight framework and about 20 KB when minified.
+Essentials.css is a simple & minimal CSS framework. It includes <a href="https://necolas.github.io/normalize.css/">Normalize.css</a> for rendering all elements more consistently and in line with modern standards. Also essentials.css is a light-weight framework and about 20 KB when minified.
 
 
 ## Installation
