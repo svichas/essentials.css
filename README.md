@@ -47,7 +47,7 @@ $ git clone https://github.com/svichas/essentials.css.git
 
 ## Usage
 
-<p>Copy-paste the stylesheet <link> into your <head> before all other stylesheets to load our CSS.</p>
+<p>Copy-paste the stylesheet &#x3C;link&#x3E; into your &#x3C;head&#x3E; before all other stylesheets to load our CSS.</p>
 
 ```html
 <!-- Open-sans font optional -->
