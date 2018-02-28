@@ -1,6 +1,6 @@
 
 
-## Contributing guideline
+## Contributing guidelines
 
 <p>We will really appreciate you to constribute to this project.</p>
 
