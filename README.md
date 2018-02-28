@@ -6,6 +6,11 @@
 [![npm](https://img.shields.io/npm/v/essentials.css.svg)](https://www.npmjs.com/package/essentials.css)
 [![GitHub license](https://img.shields.io/github/license/svichas/essentials.css.svg)](https://github.com/svichas/essentials.css/blob/master/LICENSE)
 
+
+## Why essentials.css
+Essentials.css is a simple & minimal CSS frame work. It includes <a href="https://necolas.github.io/normalize.css/">Normalize.css</a> for rendering all elements more consistently and in line with modern standards. Also essentials.css is a light-weight framework about 20 KB when minified.
+
+
 ## Installation
 
 
