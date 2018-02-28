@@ -14,12 +14,12 @@ Essentials.css is a simple & minimal CSS frame work. It includes <a href="https:
 ## Installation
 
 
-**Clone repository**
+
+**Install with bower**
 
 ```sh
-$ git clone https://github.com/svichas/essentials.css.git
+$ bower install essentials.css
 ```
-
 
 **Install with npm**
 
@@ -37,6 +37,12 @@ https://unpkg.com/essentials.css@1.3.1/dist/essentials.min.css
 **Download latest release**
 
 <a href="https://github.com/svichas/essentials.css/releases">here</a>
+
+**Clone repository**
+
+```sh
+$ git clone https://github.com/svichas/essentials.css.git
+```
 
 
 ## Usage

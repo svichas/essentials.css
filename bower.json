@@ -1,0 +1,22 @@
+{
+  "name": "essentials.css",
+  "description": "Light weight front-end framework",
+  "main": "dist/essentials.min.css",
+  "authors": [
+    "svichas"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "css-framework",
+    "css",
+    "essentials.css"
+  ],
+  "homepage": "https://github.com/svichas/essentials.css",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
