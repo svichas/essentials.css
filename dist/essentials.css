@@ -159,6 +159,12 @@ body, html {
   *:focus {
     outline: none; }
 
+.list-inline {
+  padding: 0px;
+  display: inline-block; }
+  .list-inline li {
+    display: inline-block; }
+
 .text {
   -webkit-box-shadow: 0px 0px 2px #ccc;
   -moz-box-shadow: 0px 0px 2px #ccc;
