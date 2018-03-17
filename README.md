@@ -1,5 +1,7 @@
 <p align="center">
-	<img src="essentials.png" alt="Essentials.css" width=100 height=100>
+
+	[essentials.css](essentialscss_background.jpg)
+
 </p>
 
 
