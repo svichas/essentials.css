@@ -1,4 +1,7 @@
-![essentials.css](essentialscss_background.jpg)
+<p align="center">
+	<img src="essentialscss_background.jpg" alt="Essentials.css">
+</p>
+
 
 [![npm](https://img.shields.io/npm/v/essentials.css.svg)](https://www.npmjs.com/package/essentials.css)
 [![GitHub license](https://img.shields.io/github/license/svichas/essentials.css.svg)](https://github.com/svichas/essentials.css/blob/master/LICENSE)
