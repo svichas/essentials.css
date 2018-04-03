@@ -1,0 +1,28 @@
+
+.message
+  @include border-radius($message_border_radius)
+  @include shadow(1px 1px 3px $message_shadow_color)
+  font-family: $font_family
+  text-shadow: 0px 1px 1px #ccc
+  background: $message_default_background
+  padding: $message_padding
+  color: $message_default_color
+  font-size: $message_font_size
+  font-weight: 300
+
+  &.message-error
+    text-shadow: 0px 1px 1px #444
+    color: #fff
+    background: $red_light
+
+  &.message-success
+    text-shadow: 0px 1px 1px #444
+    color: #fff
+    background: $green
+
+  &.message-warning
+    text-shadow: 0px 1px 2px #222
+    color: #fff
+    background: $yellow
+
+

@@ -1,0 +1,31 @@
+.header
+	@include clearfix()
+	@include shadow(0px 0px 3px #333)
+	line-height: $header_height
+	padding: $header_padding
+	background: $header_background_color
+
+	img.logo
+		margin: $header_logo_img_margin
+		height: $header_logo_img_height
+		width: auto
+		display: inline-block
+
+	> .left
+		float: left
+
+	> .right
+		float: right
+
+
+	@include respond(medium)
+
+		> .left
+			display: block
+			float: none
+			text-align: center
+
+		> .right
+			display: block
+			float: none
+			text-align: center

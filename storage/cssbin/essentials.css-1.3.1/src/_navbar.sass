@@ -1,0 +1,24 @@
+// navigation bar style
+.navbar
+	font-family: $font_family
+	text-align: right
+	list-style: none
+	padding: 0px
+	margin: 0px
+	position: relative
+	display: flex
+	justify-content: center
+	flex-wrap: wrap
+
+	li
+		display: inline-block
+
+	li a
+		font-family: $font_family
+		padding: 5px
+		margin: 0px 2px
+		color: #333
+
+	@include respond(medium)
+
+		text-align: center
