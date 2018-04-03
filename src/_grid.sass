@@ -90,7 +90,7 @@
 // Offsets
 //
 
-@for $i from 1 through $grid_colums
+@for $i from 0 through $grid_colums
   .#{offset}-#{$i}
     margin-left: $i / $grid_colums * 100%
   .#{offset}-xs-#{$i}
@@ -105,24 +105,24 @@
 
 // responed wide
 @include respond(wide)
-  @for $i from 1 through $grid_colums
+  @for $i from 0 through $grid_colums
     .#{offset}-wd-#{$i}
       margin-left: $i / $grid_colums * 100%
 
 // responed medium
 @include respond(medium)
-  @for $i from 1 through $grid_colums
+  @for $i from 0 through $grid_colums
     .#{offset}-md-#{$i}
       margin-left: $i / $grid_colums * 100%
 
 // responed medium
 @include respond(small)
-  @for $i from 1 through $grid_colums
+  @for $i from 0 through $grid_colums
     .#{offset}-sm-#{$i}
       margin-left: $i / $grid_colums * 100%
 
 // responed medium
 @include respond(extra-small)
-  @for $i from 1 through $grid_colums
+  @for $i from 0 through $grid_colums
     .#{offset}-xs-#{$i}
       margin-left: $i / $grid_colums * 100%
