@@ -181,7 +181,6 @@ body, html {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  font-family: "Open Sans", sans-serif;
   margin: 0px;
   font-size: 1em;
   appearance: none;
@@ -391,7 +390,6 @@ body, html {
     background: #FFE600; }
 
 .table {
-  font-family: "Open Sans", sans-serif;
   width: 100%;
   max-width: 100%;
   margin: 0px 0px 5px 0px;
@@ -442,27 +440,21 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 300; }
 
 h1, .h1 {
-  font-family: "Open Sans", sans-serif;
   font-size: 46px; }
 
 h2, .h2 {
-  font-family: "Open Sans", sans-serif;
   font-size: 36px; }
 
 h3, .h3 {
-  font-family: "Open Sans", sans-serif;
   font-size: 28px; }
 
 h4, .h4 {
-  font-family: "Open Sans", sans-serif;
   font-size: 22px; }
 
 h5, .h5 {
-  font-family: "Open Sans", sans-serif;
   font-size: 18px; }
 
 h6, .h6 {
-  font-family: "Open Sans", sans-serif;
   font-size: 14px; }
 
 /* Paragraph */
@@ -475,7 +467,6 @@ p, .p {
   font-weight: bold; }
 
 a {
-  font-family: "Open Sans", sans-serif;
   color: #3498db;
   -webkit-transition: color 200ms ease;
   -moz-transition: color 200ms ease;
@@ -488,7 +479,6 @@ a {
     color: #C5EFF7; }
 
 .label {
-  font-family: "Open Sans", sans-serif;
   display: inline-block;
   color: #fff;
   background: #c0c0c0;
