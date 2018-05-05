@@ -1,5 +1,5 @@
 {
-  "name": "essentials.css",
+  "name": "essentials.css_documentation",
   "version": "1.0.0",
   "description": "Documentation site for essentials.css",
   "main": "gulpfile.js",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/svichas/essentials.css#readme",
   "dependencies": {
+    "essentials.css": "^1.3.5",
     "gulp": "^3.9.1",
     "gulp-pug": "^4.0.1"
   }
