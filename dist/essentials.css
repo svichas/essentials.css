@@ -533,7 +533,7 @@ a {
     padding: 5px;
     margin: 0px 2px;
     color: #333; }
-  @media only screen and (min-width: 920px) {
+  @media only screen and (max-width: 920px) {
     .navbar {
       text-align: center; } }
 
@@ -573,7 +573,7 @@ a {
     float: left; }
   .header > .right {
     float: right; }
-  @media only screen and (min-width: 920px) {
+  @media only screen and (max-width: 920px) {
     .header > .left {
       display: block;
       float: none;

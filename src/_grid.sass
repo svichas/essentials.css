@@ -48,21 +48,21 @@
   .#{offset}-#{$i}
     margin-left: $i / $grid_colums * 100%
 
-// respond extra-small
-@include respond(extra-small)
+// respond-min extra-small
+@include respond-min(extra-small)
   @for $i from 1 through $grid_colums
-    
+
     .#{col}-xs-#{$i}
       flex-basis: $i / $grid_colums * 100%
       max-width: $i / $grid_colums * 100%
-    
+
     .#{offset}-xs-#{$i}
       margin-left: $i / $grid_colums * 100%
 
 // media queries for grid system
 
-// respond small
-@include respond(small)
+// respond-min small
+@include respond-min(small)
   @for $i from 1 through $grid_colums
 
     .#{col}-sm-#{$i}
@@ -73,20 +73,20 @@
       margin-left: $i / $grid_colums * 100%
 
 
-// respond medium
-@include respond(medium)
+// respond-min medium
+@include respond-min(medium)
   @for $i from 1 through $grid_colums
 
     .#{col}-md-#{$i}
       flex-basis: $i / $grid_colums * 100%
       max-width: $i / $grid_colums * 100%
-    
+
     .#{offset}-md-#{$i}
       margin-left: $i / $grid_colums * 100%
 
 
-// respond wide
-@include respond(wide)
+// respond-min wide
+@include respond-min(wide)
   @for $i from 1 through $grid_colums
 
     .#{col}-wd-#{$i}
@@ -95,6 +95,3 @@
 
     .#{offset}-wd-#{$i}
       margin-left: $i / $grid_colums * 100%
-
-
-
