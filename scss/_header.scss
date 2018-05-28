@@ -13,7 +13,11 @@
     color: $headerLogoColor;
     float: left;
     font-size: $headerLogoFontSize;
+    line-height: $headerHeight;
+    margin-bottom: 0;
     margin-left: 50px;
+    margin-right: 0;
+    margin-top: 0;
 }
 
 .site-nav {
