@@ -1,0 +1,40 @@
+
+// site header wrapper
+.site-header {
+    background-color: $headerBackgroundColor;
+    box-shadow: 0 0 3px #c0c0c0;
+    display: inline-block;
+    line-height: $headerHeight;
+    width: 100%;
+    @include clearfix();
+}
+
+.site-logo {
+    color: $headerLogoColor;
+    float: left;
+    font-size: $headerLogoFontSize;
+    margin-left: 50px;
+}
+
+.site-nav {
+    float: right;
+    margin-right: 50px;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        color: $headerNavigationLinkColor;
+        font-size: $headerNavigationLinkFontSize;
+        padding: 5px;
+        text-decoration: none;
+        transition: all 200ms ease;
+        &:hover {
+            color: $headerNavigationLinkColorHover;
+        }
+    }
+}

@@ -1,3 +1,12 @@
-.test {
-  color: red;
-}
+/*!
+* Essentials.css framework
+* version 2.0.0
+* https://github.com/svichas/essentials.css
+*/
+
+@import 'variables';
+@import 'reset';
+
+@import 'mixins';
+@import 'header';
+@import 'typography';
