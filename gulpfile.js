@@ -8,13 +8,13 @@ const rename = require("gulp-rename");
 gulp.task("compile-sass", function() {
 
 	//compile sass compressed version
-	gulp.src("src/*.scss")
+	gulp.src("scss/*.scss")
 	.pipe(sass({outputStyle: "compressed"}).on("error", sass.logError))
 	.pipe(rename("essentials.min.css"))
 	.pipe(gulp.dest("dist/"));
 
 	//compile sass uncompressed version
-	gulp.src("src/*.scss")
+	gulp.src("scss/*.scss")
 	.pipe(sass().on("error", sass.logError))
 	.pipe(rename("essentials.css"))
 	.pipe(gulp.dest("dist/"));
@@ -22,7 +22,11 @@ gulp.task("compile-sass", function() {
 });
 
 // creating watch task
-gulp.task("sass-watch", function() {
+gulp.task("watch-sass", function() {
+
 	//watching sass files on src directory
-	gulp.watch("src/*.scss", ["compile-sass"]);
+	gulp.watch("scss/*.scss", ["compile-sass"]);
+	gulp.watch("scss/**/*.scss", ["compile-sass"]);
+
+
 });
