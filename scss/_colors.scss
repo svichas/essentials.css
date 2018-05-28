@@ -1,0 +1,44 @@
+/*!
+* Colors by mrmrs
+* https://github.com/mrmrs/colors
+* LICENSE: MIT license
+*/
+
+$aqua: #7fdbff;
+$blue: #0074d9;
+$navy: #001f3f;
+$teal: #39cccc;
+$green: #2ecc40;
+$olive: #3d9970;
+$lime: #01ff70;
+$yellow: #ffdc00;
+$orange: #ff851b;
+$red: #ff4136;
+$fuchsia: #f012be;
+$purple: #b10dc9;
+$maroon: #85144b;
+$white: #fff;
+$silver: #ddd;
+$gray: #aaa;
+$black: #111;
+
+$colors: () !default;
+$colors: map-merge((
+  'aqua': $aqua,
+  'blue': $blue,
+  'navy': $navy,
+  'teal': $teal,
+  'green': $green,
+  'olive': $olive,
+  'lime': $lime,
+  'yellow': $yellow,
+  'orange': $orange,
+  'red': $red,
+  'fuchsia': $fuchsia,
+  'purple': $purple,
+  'maroon': $maroon,
+  'white': $white,
+  'silver': $silver,
+  'gray': $gray,
+  'black': $black
+), $colors);

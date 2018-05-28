@@ -4,9 +4,11 @@
 * https://github.com/svichas/essentials.css
 */
 
+@import 'colors';
+@import 'root';
 @import 'variables';
-@import 'reset';
-
 @import 'mixins';
+@import 'reset';
 @import 'header';
 @import 'typography';
+@import 'breadcrumb';

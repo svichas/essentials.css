@@ -1,0 +1,32 @@
+
+
+.breadcrumb {
+    margin-top: $breadcrumbMargin;
+    margin-top: $breadcrumbMargin;
+    padding: $breadcrumbPadding;
+    @include displayFlex();
+    @include flexWrap(wrap);
+}
+
+.breadcrumb-item {
+    display: inline-block;
+
+     + .breadcrumb-item:before {
+        content: '/';
+        margin-left: $breadcrumbItemSpacing;
+        margin-right: $breadcrumbItemSpacing;
+    }
+
+    a {
+        color: $breadcrumdLinkColor;
+        text-decoration: none;
+        transition: color 200ms ease;
+        &:hover {
+            color: $breadcrumdLinkColorHover;
+        }
+    }
+
+    &.active {
+        color: $breadcrumdActiveColor;
+    }
+}

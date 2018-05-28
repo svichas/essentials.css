@@ -3,6 +3,30 @@
 * version 2.0.0
 * https://github.com/svichas/essentials.css
 */
+/*!
+* Colors by mrmrs
+* https://github.com/mrmrs/colors
+* LICENSE: MIT license
+*/
+:root {
+  --aqua: #7fdbff;
+  --blue: #0074d9;
+  --navy: #001f3f;
+  --teal: #39cccc;
+  --green: #2ecc40;
+  --olive: #3d9970;
+  --lime: #01ff70;
+  --yellow: #ffdc00;
+  --orange: #ff851b;
+  --red: #ff4136;
+  --fuchsia: #f012be;
+  --purple: #b10dc9;
+  --maroon: #85144b;
+  --white: #fff;
+  --silver: #ddd;
+  --gray: #aaa;
+  --black: #111; }
+
 html,
 body,
 div,
@@ -167,3 +191,28 @@ html,
 body {
   font-family: Arial;
   margin: 0; }
+
+.breadcrumb {
+  margin-top: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.breadcrumb-item {
+  display: inline-block; }
+  .breadcrumb-item + .breadcrumb-item:before {
+    content: '/';
+    margin-left: 5px;
+    margin-right: 5px; }
+  .breadcrumb-item a {
+    color: #444;
+    text-decoration: none;
+    transition: color 200ms ease; }
+    .breadcrumb-item a:hover {
+      color: #999; }
+  .breadcrumb-item.active {
+    color: #222; }
