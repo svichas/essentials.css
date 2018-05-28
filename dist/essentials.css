@@ -27,6 +27,9 @@
   --gray: #aaa;
   --black: #111; }
 
+* {
+  box-sizing: border-box; }
+
 html,
 body,
 div,
@@ -267,3 +270,12 @@ h6 {
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap; }
+
+[class^='col'] {
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto; }
+
+.col {
+  -webkit-flex-basis: 1;
+  flex-basis: 1; }

@@ -1,7 +1,21 @@
 
-
-
 .row {
-	@include displayFlex();
-	@include flexWrap(wrap);
+    @include gridRow();
+}
+
+
+[class^='col'] {
+    @include flex(0 0 auto);
+}
+
+.col {
+	@include gridCol();
+}
+
+
+// grid columns
+@for $i from 1 through $gridColums {
+
+
+
 }
