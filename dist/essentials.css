@@ -264,6 +264,14 @@ h6 {
   .breadcrumb-item.active {
     color: #222; }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 100%; }
+
 .row {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -279,3 +287,27 @@ h6 {
 .col {
   -webkit-flex-basis: 1;
   flex-basis: 1; }
+
+.btn {
+  background-color: #f0f0f0;
+  border-color: transparent;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px 1px 2px 1px;
+  box-shadow: 0 0 2px #ccc;
+  color: #666;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  font-weight: 300;
+  letter-spacing: .03em;
+  line-height: 1.2em;
+  padding: 6px 17px 6px 17px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0 1px 1px #ccc;
+  transition: background 300ms ease;
+  user-select: none;
+  white-space: nowrap; }
+  .btn:hover {
+    background-color: #ddd; }
