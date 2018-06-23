@@ -1,15 +1,14 @@
 
 
 @mixin gridRow() {
-	@include displayFlex();
-    @include flexWrap(wrap);
+	display: flex;
+	flex-wrap: wrap;
 }
 
 @mixin gridCol() {
-	@include flexWidth(1);
+	flex-basis: 1;
 }
 
 @mixin gridWidth($width) {
-	max-width: $width;
-	@include flexWidth($width);
+	flex-basis: $width;
 }

@@ -14,10 +14,6 @@
 }
 
 
-[class^='col'] {
-    @include flex(0 0 auto);
-}
-
 .col {
     @include gridCol();
 }
