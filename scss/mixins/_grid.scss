@@ -11,4 +11,5 @@
 
 @mixin gridWidth($width) {
 	flex-basis: $width;
+	max-width: $width;
 }

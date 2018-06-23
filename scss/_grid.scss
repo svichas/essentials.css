@@ -13,12 +13,85 @@
     @include gridRow();
 }
 
-
 .col {
-    @include gridCol();
+	flex-basis: 0;
+	flex-grow: 1;
+	max-width: 100%;
 }
-
 
 // grid columns
 @for $i from 1 through $gridColums {
+    .col-#{$i} {
+        @include gridWidth(($i/$gridColums)*100%);
+    }
+
+}
+
+
+// grid offsets
+@for $i from 1 through $gridColums - 1 {
+    .offset-#{$i} {
+       margin-left: ($i/$gridColums)*100%;
+    }
+}
+
+
+
+// respinsive grid
+@include respond_min_screen(mobile) {
+    @for $i from 1 through $gridColums {
+        .col-mobile-#{$i} {
+            @include gridWidth(($i/$gridColums)*100%);
+        }
+    }
+    @for $i from 1 through $gridColums - 1 {
+        .offset-mobile-#{$i} {
+           margin-left: ($i/$gridColums)*100%;
+        }
+    }
+}
+
+
+// respinsive grid
+@include respond_min_screen(tablet) {
+    @for $i from 1 through $gridColums {
+        .col-tablet-#{$i} {
+            @include gridWidth(($i/$gridColums)*100%);
+        }
+    }
+    @for $i from 1 through $gridColums - 1 {
+        .offset-tablet-#{$i} {
+           margin-left: ($i/$gridColums)*100%;
+        }
+    }
+}
+
+
+// respinsive grid
+@include respond_min_screen(desktop) {
+    @for $i from 1 through $gridColums {
+        .col-desktop-#{$i} {
+            @include gridWidth(($i/$gridColums)*100%);
+        }
+    }
+    @for $i from 1 through $gridColums - 1 {
+        .offset-desktop-#{$i} {
+           margin-left: ($i/$gridColums)*100%;
+        }
+    }
+}
+
+
+// respinsive grid
+@include respond_min_screen(dekstop-large) {
+    @for $i from 1 through $gridColums {
+        .col-desktop-lg-#{$i} {
+            @include gridWidth(($i/$gridColums)*100%);
+        }
+    }
+    @for $i from 1 through $gridColums - 1 {
+        .offset-desktop-lg-#{$i} {
+           margin-left: ($i/$gridColums)*100%;
+        }
+    }
 }
