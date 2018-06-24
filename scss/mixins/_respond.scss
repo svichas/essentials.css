@@ -18,5 +18,9 @@
 		@media only screen and (min-width: $screenMobile) {
 			@content;
 		}
+    } @elseif ($screen == zero) {
+		@media only screen and (min-width: 0px) {
+			@content;
+		}
     }
 }

@@ -38,7 +38,7 @@
 
 
 // respinsive grid
-@include respond_min_screen(mobile) {
+@include respond_min_screen(zero) {
     @for $i from 1 through $gridColums {
         .col-mobile-#{$i} {
             @include gridWidth(($i/$gridColums)*100%);
