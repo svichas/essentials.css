@@ -1,11 +1,10 @@
 
 .btn {
-    @include baseButtonStyle();
+    @extend %baseButton;
 }
 
-
 .btn-classic {
-    @include baseButtonStyle();
+    @extend %baseButton;
     background: #eee;
     border-color: #ccc;
     border-radius: 1px;
