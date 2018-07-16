@@ -3,13 +3,26 @@
 }
 
 
-blockquote, dl, figure, form, ol, p, pre, table, ul {
+blockquote,
+dl,
+figure,
+form,
+ol,
+p,
+pre,
+table,
+ul,
+fieldset,
+input,
+select,
+textarea {
     margin-bottom: 1rem;
 }
 
 
 li,
-label, 
-legend {
+label,
+legend,
+ {
     margin-bottom: .5rem;
 }

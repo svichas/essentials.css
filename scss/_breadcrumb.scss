@@ -1,5 +1,4 @@
 
-
 .breadcrumb {
     margin-top: $breadcrumbMargin;
     margin-top: $breadcrumbMargin;
@@ -10,23 +9,15 @@
 
 .breadcrumb-item {
     display: inline-block;
+    margin-bottom: 0;
 
      + .breadcrumb-item:before {
         content: '/';
         margin-left: $breadcrumbItemSpacing;
-        margin-right: $breadcrumbItemSpacing;
-    }
-
-    a {
-        color: $breadcrumdLinkColor;
-        text-decoration: none;
-        transition: color 200ms ease;
-        &:hover {
-            color: $breadcrumdLinkColorHover;
-        }
     }
 
     &.active {
         color: $breadcrumdActiveColor;
     }
+
 }

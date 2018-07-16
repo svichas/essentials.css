@@ -52,3 +52,12 @@ blockquote {
     border-left: 4px solid $gray;
     display: block;
 }
+
+a {
+    color: $blue;
+    text-decoration: none;
+    transition: color 200ms ease;
+    &:hover {
+        color: $navy;
+    }
+}
