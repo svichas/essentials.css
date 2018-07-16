@@ -1,0 +1,23 @@
+
+.breadcrumb {
+    margin-top: $breadcrumbMargin;
+    margin-top: $breadcrumbMargin;
+    padding: $breadcrumbPadding;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.breadcrumb-item {
+    display: inline-block;
+    margin-bottom: 0;
+
+     + .breadcrumb-item:before {
+        content: '/';
+        margin-left: $breadcrumbItemSpacing;
+    }
+
+    &.active {
+        color: $breadcrumdActiveColor;
+    }
+
+}

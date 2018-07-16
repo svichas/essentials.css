@@ -1,0 +1,15 @@
+
+
+@mixin gridRow() {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@mixin gridCol() {
+	flex-basis: 1;
+}
+
+@mixin gridWidth($width) {
+	flex-basis: $width;
+	max-width: $width;
+}

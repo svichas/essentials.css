@@ -1,0 +1,25 @@
+
+.clearfix {
+    @include clearfix();
+}
+
+.text {
+    &-right {
+        text-align: right;
+    }
+    &-left {
+        text-align: left;
+    }
+    &-hide {
+        @include texthide();
+    }
+}
+
+.float {
+    &-right {
+        float: right;
+    }
+    &-left {
+        float: left;
+    }
+}

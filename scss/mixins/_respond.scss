@@ -1,0 +1,26 @@
+
+
+
+@mixin respond_min_screen($screen) {
+    @if ($screen == desktop-large) {
+    	@media only screen and (min-width: $screenDesktopLarge) {
+			@content;
+		}  
+    } @elseif ($screen == desktop) {
+   		@media only screen and (min-width: $screenDesktop) {
+			@content;
+		}
+    } @elseif ($screen == tablet) {
+		@media only screen and (min-width: $screenTablet) {
+			@content;
+		}
+    } @elseif ($screen == mobile) {
+		@media only screen and (min-width: $screenMobile) {
+			@content;
+		}
+    } @elseif ($screen == zero) {
+		@media only screen and (min-width: 0px) {
+			@content;
+		}
+    }
+}

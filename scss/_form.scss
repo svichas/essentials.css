@@ -1,0 +1,27 @@
+label,
+legend {
+    display: block;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.form-input {
+    appearance: none;
+    font-size: 1rem;
+    box-shadow: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color: $gray;
+    padding: .5rem .7rem;
+    color: $black;
+    outline: 0;
+    border-radius: .2rem;
+    transition: border 200ms ease, box-shadow 200ms ease;
+    &:hover {
+        border-color: $silver;
+    }
+    &:focus {
+        box-shadow: 0px 0px .3rem $blue;
+        border-color: $blue;
+    }
+}

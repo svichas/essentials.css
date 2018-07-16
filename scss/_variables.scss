@@ -1,0 +1,33 @@
+// essentials.css variables
+$baseFontFamily: Arial;
+
+// screen sizes
+$screenMobile: 320px;
+$screenLargerMobile: 400px;
+$screenTablet: 750px;
+$screenDesktop: 1000px;
+$screenDesktopLarge: 1400px;
+
+// grid variables
+$gridColums: 12;
+$containerPadding: 10px;
+
+//visible variables
+$visibleColums: 12;
+
+// Header variables
+$headerHeight: 60px;
+$headerBackgroundColor: #fff;
+$headerLogoFontSize: 32px;
+$headerLogoColor: #333;
+$headerNavigationLinkColor: #444;
+$headerNavigationLinkColorHover: #999;
+$headerNavigationLinkFontSize: 18px;
+
+//Breadcrumb variables
+$breadcrumbPadding: 5px;
+$breadcrumbMargin: 10px;
+$breadcrumdLinkColor: #444;
+$breadcrumdActiveColor: #222;
+$breadcrumbItemSpacing: 5px;
+$breadcrumdLinkColorHover: #999;

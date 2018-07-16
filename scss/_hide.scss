@@ -1,0 +1,38 @@
+.visible {
+    display: inline-block;
+}
+.hide {
+    display: none;
+}
+@include respond_min_screen(mobile) {
+    .visible-mobile {
+        display: inline-block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
+@include respond_min_screen(tablet) {
+    .visible-tablet {
+        display: inline-block;
+    }
+    .hide-tablet {
+        display: none;
+    }
+}
+@include respond_min_screen(dekstop) {
+    .visible-desktop {
+        display: inline-block;
+    }
+    .hide-desktop {
+        display: none;
+    }
+}
+@include respond_min_screen(dekstop-large) {
+    .visible-desktop-lg {
+        display: inline-block;
+    }
+    .hide-desktop-lg {
+        display: none;
+    }
+}
