@@ -53,7 +53,7 @@ $ git clone https://github.com/svichas/essentials.css.git
 <!-- Open-sans font optional -->
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <!-- Essentials.css framework -->
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/essentials.css@1.3.6/dist/essentials.min.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/essentials.css@2.0.0/dist/essentials.min.css">
 ```
 
 
