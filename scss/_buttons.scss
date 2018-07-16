@@ -19,3 +19,23 @@
         border-color: #555;
     }
 }
+
+
+.btn-blue {
+
+    @extend %baseButton;
+    text-shadow: 0px 1px 1px #444;
+    color: #fff;
+    background: #0063aa;
+    border-color: #000080;
+
+    &:hover,
+    &:focus {
+        background: $blue;
+         color: #fff;
+    }
+
+    &:active {
+        border-color: transparent;
+    }
+}

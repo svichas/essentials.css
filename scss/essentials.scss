@@ -8,9 +8,12 @@
 @import 'root';
 @import 'variables';
 @import 'mixins';
-@import 'reset';
+
+@import 'normilize';
 @import 'header';
 @import 'typography';
 @import 'breadcrumb';
 @import 'grid';
 @import 'buttons';
+@import 'lists';
+@import 'utilities';
