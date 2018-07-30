@@ -153,9 +153,13 @@ a {
     color: #001f3f; }
 
 .breadcrumb {
+  list-style: none;
   margin-top: 10px;
   margin-top: 10px;
   padding: 5px;
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -163,11 +167,12 @@ a {
   flex-wrap: wrap; }
 
 .breadcrumb-item {
-  display: inline-block;
   margin-bottom: 0; }
   .breadcrumb-item + .breadcrumb-item:before {
     content: '/';
-    margin-left: 5px; }
+    margin-left: 5px;
+    margin-right: 5px;
+    display: inline-block; }
   .breadcrumb-item.active {
     color: #222; }
 

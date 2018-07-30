@@ -1,19 +1,22 @@
 
 .breadcrumb {
+    list-style: none;
     margin-top: $breadcrumbMargin;
     margin-top: $breadcrumbMargin;
     padding: $breadcrumbPadding;
+    justify-content: flex-start;
     display: flex;
     flex-wrap: wrap;
 }
 
 .breadcrumb-item {
-    display: inline-block;
     margin-bottom: 0;
 
      + .breadcrumb-item:before {
         content: '/';
         margin-left: $breadcrumbItemSpacing;
+        margin-right: $breadcrumbItemSpacing;
+        display: inline-block;
     }
 
     &.active {
