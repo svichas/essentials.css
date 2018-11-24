@@ -1,26 +1,23 @@
 
 
+@mixin respond($breakpoint) {
 
-@mixin respond_min_screen($screen) {
-    @if ($screen == desktop-large) {
-    	@media only screen and (min-width: $screenDesktopLarge) {
-			@content;
-		}  
-    } @elseif ($screen == desktop) {
-   		@media only screen and (min-width: $screenDesktop) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (max-width: #{map-get($breakpoints, $breakpoint)}) {
 			@content;
 		}
-    } @elseif ($screen == tablet) {
-		@media only screen and (min-width: $screenTablet) {
+	}
+
+	@if str-slice($breakpoint, 0, 1) == ">" and map-has-key($breakpoints, str-slice($breakpoint, 2, -1)) {
+		@media (min-width: #{map-get($breakpoints, str-slice($breakpoint, 2, -1))}) {
 			@content;
 		}
-    } @elseif ($screen == mobile) {
-		@media only screen and (min-width: $screenMobile) {
+	}
+
+	@if str-slice($breakpoint, 0, 1) == "<" and map-has-key($breakpoints, str-slice($breakpoint, 2, -1)) {
+		@media (max-width: #{map-get($breakpoints, str-slice($breakpoint, 2, -1))}) {
 			@content;
 		}
-    } @elseif ($screen == zero) {
-		@media only screen and (min-width: 0px) {
-			@content;
-		}
-    }
+	}
+
 }

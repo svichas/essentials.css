@@ -3,7 +3,7 @@
 .container {
     margin-left: auto;
     margin-right: auto;
-    max-width: $screenDesktopLarge;
+    max-width: 1280px;
     padding-left: $containerPadding;
     padding-right: $containerPadding;
     width: 100%;
@@ -24,9 +24,7 @@
     .col-#{$i} {
         @include gridWidth(($i/$gridColums)*100%);
     }
-
 }
-
 
 // grid offsets
 @for $i from 1 through $gridColums - 1 {
@@ -38,14 +36,14 @@
 
 
 // respinsive grid
-@include respond_min_screen(zero) {
+@include respond(">zero") {
     @for $i from 1 through $gridColums {
-        .col-mobile-#{$i} {
+        .col-xs-#{$i} {
             @include gridWidth(($i/$gridColums)*100%);
         }
     }
     @for $i from 1 through $gridColums - 1 {
-        .offset-mobile-#{$i} {
+        .col-xs-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
     }
@@ -53,14 +51,14 @@
 
 
 // respinsive grid
-@include respond_min_screen(tablet) {
+@include respond(">tablet") {
     @for $i from 1 through $gridColums {
-        .col-tablet-#{$i} {
+        .col-sm-#{$i} {
             @include gridWidth(($i/$gridColums)*100%);
         }
     }
     @for $i from 1 through $gridColums - 1 {
-        .offset-tablet-#{$i} {
+        .col-sm-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
     }
@@ -68,14 +66,14 @@
 
 
 // respinsive grid
-@include respond_min_screen(desktop) {
+@include respond(">desktop-small") {
     @for $i from 1 through $gridColums {
-        .col-desktop-#{$i} {
+        .col-md-#{$i} {
             @include gridWidth(($i/$gridColums)*100%);
         }
     }
     @for $i from 1 through $gridColums - 1 {
-        .offset-desktop-#{$i} {
+        .col-md-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
     }
@@ -83,14 +81,14 @@
 
 
 // respinsive grid
-@include respond_min_screen(dekstop-large) {
+@include respond(">desktop") {
     @for $i from 1 through $gridColums {
-        .col-desktop-lg-#{$i} {
+        .col-lg-#{$i} {
             @include gridWidth(($i/$gridColums)*100%);
         }
     }
     @for $i from 1 through $gridColums - 1 {
-        .offset-desktop-lg-#{$i} {
+        .col-lg-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
     }

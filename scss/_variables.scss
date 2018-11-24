@@ -2,11 +2,14 @@
 $baseFontFamily: Arial;
 
 // screen sizes
-$screenMobile: 320px;
-$screenLargerMobile: 400px;
-$screenTablet: 750px;
-$screenDesktop: 1000px;
-$screenDesktopLarge: 1400px;
+$breakpoints: () !default;
+$breakpoints: map-merge((
+  "zero": 0px,
+  "mobile": 640px,
+  "tablet": 1024px,
+  "desktop-small": 1280px,
+  "desktop": 1700px
+), $breakpoints);
 
 // grid variables
 $gridColums: 12;
