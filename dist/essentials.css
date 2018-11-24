@@ -28,6 +28,9 @@
   --black: #111; }
 
 .btn, .btn-classic, .btn-blue {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background-color: #f0f0f0;
   border-color: transparent;
   border-radius: 3px;
