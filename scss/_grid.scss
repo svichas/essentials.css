@@ -43,7 +43,7 @@
         }
     }
     @for $i from 1 through $gridColums - 1 {
-        .col-xs-#{$i} {
+        .offset-xs-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
     }
@@ -58,7 +58,7 @@
         }
     }
     @for $i from 1 through $gridColums - 1 {
-        .col-sm-#{$i} {
+        .offset-sm-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
     }
@@ -73,7 +73,7 @@
         }
     }
     @for $i from 1 through $gridColums - 1 {
-        .col-md-#{$i} {
+        .offset-md-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
     }
@@ -88,7 +88,7 @@
         }
     }
     @for $i from 1 through $gridColums - 1 {
-        .col-lg-#{$i} {
+        .offset-lg-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
     }
