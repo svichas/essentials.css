@@ -42,7 +42,7 @@
             @include gridWidth(($i/$gridColums)*100%);
         }
     }
-    @for $i from 1 through $gridColums - 1 {
+    @for $i from 0 through $gridColums - 1 {
         .offset-xs-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
@@ -57,7 +57,7 @@
             @include gridWidth(($i/$gridColums)*100%);
         }
     }
-    @for $i from 1 through $gridColums - 1 {
+    @for $i from 0 through $gridColums - 1 {
         .offset-sm-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
@@ -72,7 +72,7 @@
             @include gridWidth(($i/$gridColums)*100%);
         }
     }
-    @for $i from 1 through $gridColums - 1 {
+    @for $i from 0 through $gridColums - 1 {
         .offset-md-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }
@@ -87,7 +87,7 @@
             @include gridWidth(($i/$gridColums)*100%);
         }
     }
-    @for $i from 1 through $gridColums - 1 {
+    @for $i from 0 through $gridColums - 1 {
         .offset-lg-#{$i} {
            margin-left: ($i/$gridColums)*100%;
         }

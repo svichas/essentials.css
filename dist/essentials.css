@@ -347,6 +347,8 @@ a {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     max-width: 100%; }
+  .offset-xs-0 {
+    margin-left: 0%; }
   .offset-xs-1 {
     margin-left: 8.33333%; }
   .offset-xs-2 {
@@ -419,6 +421,8 @@ a {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     max-width: 100%; }
+  .offset-sm-0 {
+    margin-left: 0%; }
   .offset-sm-1 {
     margin-left: 8.33333%; }
   .offset-sm-2 {
@@ -491,6 +495,8 @@ a {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     max-width: 100%; }
+  .offset-md-0 {
+    margin-left: 0%; }
   .offset-md-1 {
     margin-left: 8.33333%; }
   .offset-md-2 {
@@ -563,6 +569,8 @@ a {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     max-width: 100%; }
+  .offset-lg-0 {
+    margin-left: 0%; }
   .offset-lg-1 {
     margin-left: 8.33333%; }
   .offset-lg-2 {
