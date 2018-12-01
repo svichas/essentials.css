@@ -27,7 +27,7 @@
 }
 
 // grid offsets
-@for $i from 1 through $gridColums - 1 {
+@for $i from 0 through $gridColums - 1 {
     .offset-#{$i} {
        margin-left: ($i/$gridColums)*100%;
     }

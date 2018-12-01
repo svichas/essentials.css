@@ -262,6 +262,9 @@ a {
   flex-basis: 100%;
   max-width: 100%; }
 
+.offset-0 {
+  margin-left: 0%; }
+
 .offset-1 {
   margin-left: 8.33333%; }
 
