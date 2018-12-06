@@ -31,7 +31,7 @@ gulp.task("compile-sass", function() {
 });
 
 // creating watch task
-gulp.task("watch-sass", function() {
+gulp.task("compile", function() {
 
 	//watching sass files on src directory
 	gulp.watch("scss/*.scss", ["compile-sass"]);

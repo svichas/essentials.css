@@ -36,18 +36,18 @@
 
 
 // respinsive grid
-@include respond(">zero") {
-    @for $i from 1 through $gridColums {
-        .col-xs-#{$i} {
-            @include gridWidth(($i/$gridColums)*100%);
-        }
-    }
-    @for $i from 0 through $gridColums - 1 {
-        .offset-xs-#{$i} {
-           margin-left: ($i/$gridColums)*100%;
-        }
+// greater than zero
+@for $i from 1 through $gridColums {
+    .col-xs-#{$i} {
+        @include gridWidth(($i/$gridColums)*100%);
     }
 }
+@for $i from 0 through $gridColums - 1 {
+    .offset-xs-#{$i} {
+       margin-left: ($i/$gridColums)*100%;
+    }
+}
+
 
 
 // respinsive grid

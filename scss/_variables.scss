@@ -4,7 +4,6 @@ $baseFontFamily: Arial;
 // screen sizes
 $breakpoints: () !default;
 $breakpoints: map-merge((
-  "zero": 0px,
   "mobile": 640px,
   "tablet": 1024px,
   "desktop-small": 1280px,
