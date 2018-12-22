@@ -1,6 +1,6 @@
 {
   "name": "essentials.css",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "Light weight front-end framework",
   "main": "dist/essentials.min.css",
   "scripts": {

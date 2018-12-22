@@ -5,7 +5,33 @@ legend {
     font-weight: 700;
 }
 
+.form {
+  label {
+    font-size: 16px;
+    font-weight: normal;
+    margin-bottom: 3px;
+  }
+}
+
+.form-group {
+  display: flex;
+
+  .form-control {
+    flex: 1;
+    margin: 0 10px;
+  }
+
+  .form-input {
+    width: 100%;
+  }
+
+  + .form-group {
+    margin-top: 10px;
+  }
+}
+
 .form-input {
+    margin: 0;
     appearance: none;
     font-size: 1rem;
     box-shadow: none;
