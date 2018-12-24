@@ -10,6 +10,12 @@
     &-left {
         text-align: left;
     }
+    &-center {
+        text-align: center;
+    }
+    &-justify {
+        text-align: justify;
+    }
     &-hide {
         @include texthide();
     }
