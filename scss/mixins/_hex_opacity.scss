@@ -1,0 +1,5 @@
+
+
+@function hex_opacity($hex_color, $opacity:1) {
+     @return rgba(red($hex_color),green($hex_color),blue($hex_color),$opacity);
+}

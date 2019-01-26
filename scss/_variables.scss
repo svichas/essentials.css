@@ -3,11 +3,9 @@ $baseFontFamily: Arial;
 
 // screen sizes
 $breakpoints: (
-  "extra-small": 640px,
   "small": 768px,
-  "medium": 768px,
-  "large": 1280px,
-  "extra-large": 1700px
+  "medium": 990px,
+  "large": 1280px
 );
 
 // grid variables
@@ -33,3 +31,10 @@ $breadcrumdLinkColor: #444;
 $breadcrumdActiveColor: #222;
 $breadcrumbItemSpacing: 5px;
 $breadcrumdLinkColorHover: #999;
+
+// Button variables
+$btnColors: (
+     "red",
+     "blue",
+     "yellow"
+);

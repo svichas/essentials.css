@@ -20,10 +20,10 @@ $maroon: #85144b;
 $white: #fff;
 $silver: #ddd;
 $gray: #aaa;
+$dark-gray: #444;
 $black: #111;
 
-$colors: () !default;
-$colors: map-merge((
+$colors: (
   'aqua': $aqua,
   'blue': $blue,
   'navy': $navy,
@@ -40,5 +40,6 @@ $colors: map-merge((
   'white': $white,
   'silver': $silver,
   'gray': $gray,
+  'dark-gray': $dark-gray,
   'black': $black
-), $colors);
+);

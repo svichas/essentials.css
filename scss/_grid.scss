@@ -34,7 +34,6 @@
 }
 
 
-
 // respinsive grid
 // greater than zero
 @for $i from 1 through $gridColums {
@@ -49,9 +48,8 @@
 }
 
 
-
 // respinsive grid
-@include respond(">tablet") {
+@include respond(">small") {
     @for $i from 1 through $gridColums {
         .col-sm-#{$i} {
             @include gridWidth(($i/$gridColums)*100%);
@@ -66,7 +64,7 @@
 
 
 // respinsive grid
-@include respond(">desktop-small") {
+@include respond(">medium") {
     @for $i from 1 through $gridColums {
         .col-md-#{$i} {
             @include gridWidth(($i/$gridColums)*100%);
@@ -81,7 +79,7 @@
 
 
 // respinsive grid
-@include respond(">desktop") {
+@include respond(">large") {
     @for $i from 1 through $gridColums {
         .col-lg-#{$i} {
             @include gridWidth(($i/$gridColums)*100%);
