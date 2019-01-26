@@ -28,7 +28,7 @@ $ npm install essentials.css
 **Install with CDN**
 
 ```html
-https://unpkg.com/essentials.css@2.0.2/dist/essentials.min.css
+https://unpkg.com/essentials.css@2.5.0/dist/essentials.min.css
 ```
 
 **Download latest release**
@@ -48,7 +48,7 @@ $ git clone https://github.com/svichas/essentials.css.git
 
 ```html
 <!-- Essentials.css framework -->
-<link rel="stylesheet" type="text/css" href="https://unpkg.com/essentials.css@2.0.2/dist/essentials.min.css">
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/essentials.css@2.5.0/dist/essentials.min.css">
 ```
 
 

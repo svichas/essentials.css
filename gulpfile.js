@@ -1,6 +1,6 @@
 /*!
 * Essentials.css framework
-* version 3.0.0
+* version 2.5.0
 * https://github.com/svichas/essentials.css
 */
 
