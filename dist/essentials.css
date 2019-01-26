@@ -1,6 +1,6 @@
 /*!
 * Essentials.css framework
-* version 2.0.0
+* version 3.0.0
 * https://github.com/svichas/essentials.css
 */
 /*!
@@ -50,6 +50,7 @@
   text-decoration: none;
   text-shadow: 0 1px 1px #ccc;
   -webkit-transition: background 300ms ease;
+  -o-transition: background 300ms ease;
   transition: background 300ms ease;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -151,6 +152,7 @@ a {
   color: #0074d9;
   text-decoration: none;
   -webkit-transition: color 200ms ease;
+  -o-transition: color 200ms ease;
   transition: color 200ms ease; }
   a:hover {
     color: #001f3f; }
@@ -394,228 +396,6 @@ a {
 .offset-xs-11 {
   margin-left: 91.66667%; }
 
-@media (min-width: 1024px) {
-  .col-sm-1 {
-    -ms-flex-preferred-size: 8.33333%;
-    flex-basis: 8.33333%;
-    max-width: 8.33333%; }
-  .col-sm-2 {
-    -ms-flex-preferred-size: 16.66667%;
-    flex-basis: 16.66667%;
-    max-width: 16.66667%; }
-  .col-sm-3 {
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    max-width: 25%; }
-  .col-sm-4 {
-    -ms-flex-preferred-size: 33.33333%;
-    flex-basis: 33.33333%;
-    max-width: 33.33333%; }
-  .col-sm-5 {
-    -ms-flex-preferred-size: 41.66667%;
-    flex-basis: 41.66667%;
-    max-width: 41.66667%; }
-  .col-sm-6 {
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-width: 50%; }
-  .col-sm-7 {
-    -ms-flex-preferred-size: 58.33333%;
-    flex-basis: 58.33333%;
-    max-width: 58.33333%; }
-  .col-sm-8 {
-    -ms-flex-preferred-size: 66.66667%;
-    flex-basis: 66.66667%;
-    max-width: 66.66667%; }
-  .col-sm-9 {
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-    max-width: 75%; }
-  .col-sm-10 {
-    -ms-flex-preferred-size: 83.33333%;
-    flex-basis: 83.33333%;
-    max-width: 83.33333%; }
-  .col-sm-11 {
-    -ms-flex-preferred-size: 91.66667%;
-    flex-basis: 91.66667%;
-    max-width: 91.66667%; }
-  .col-sm-12 {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-width: 100%; }
-  .offset-sm-0 {
-    margin-left: 0%; }
-  .offset-sm-1 {
-    margin-left: 8.33333%; }
-  .offset-sm-2 {
-    margin-left: 16.66667%; }
-  .offset-sm-3 {
-    margin-left: 25%; }
-  .offset-sm-4 {
-    margin-left: 33.33333%; }
-  .offset-sm-5 {
-    margin-left: 41.66667%; }
-  .offset-sm-6 {
-    margin-left: 50%; }
-  .offset-sm-7 {
-    margin-left: 58.33333%; }
-  .offset-sm-8 {
-    margin-left: 66.66667%; }
-  .offset-sm-9 {
-    margin-left: 75%; }
-  .offset-sm-10 {
-    margin-left: 83.33333%; }
-  .offset-sm-11 {
-    margin-left: 91.66667%; } }
-
-@media (min-width: 1280px) {
-  .col-md-1 {
-    -ms-flex-preferred-size: 8.33333%;
-    flex-basis: 8.33333%;
-    max-width: 8.33333%; }
-  .col-md-2 {
-    -ms-flex-preferred-size: 16.66667%;
-    flex-basis: 16.66667%;
-    max-width: 16.66667%; }
-  .col-md-3 {
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    max-width: 25%; }
-  .col-md-4 {
-    -ms-flex-preferred-size: 33.33333%;
-    flex-basis: 33.33333%;
-    max-width: 33.33333%; }
-  .col-md-5 {
-    -ms-flex-preferred-size: 41.66667%;
-    flex-basis: 41.66667%;
-    max-width: 41.66667%; }
-  .col-md-6 {
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-width: 50%; }
-  .col-md-7 {
-    -ms-flex-preferred-size: 58.33333%;
-    flex-basis: 58.33333%;
-    max-width: 58.33333%; }
-  .col-md-8 {
-    -ms-flex-preferred-size: 66.66667%;
-    flex-basis: 66.66667%;
-    max-width: 66.66667%; }
-  .col-md-9 {
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-    max-width: 75%; }
-  .col-md-10 {
-    -ms-flex-preferred-size: 83.33333%;
-    flex-basis: 83.33333%;
-    max-width: 83.33333%; }
-  .col-md-11 {
-    -ms-flex-preferred-size: 91.66667%;
-    flex-basis: 91.66667%;
-    max-width: 91.66667%; }
-  .col-md-12 {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-width: 100%; }
-  .offset-md-0 {
-    margin-left: 0%; }
-  .offset-md-1 {
-    margin-left: 8.33333%; }
-  .offset-md-2 {
-    margin-left: 16.66667%; }
-  .offset-md-3 {
-    margin-left: 25%; }
-  .offset-md-4 {
-    margin-left: 33.33333%; }
-  .offset-md-5 {
-    margin-left: 41.66667%; }
-  .offset-md-6 {
-    margin-left: 50%; }
-  .offset-md-7 {
-    margin-left: 58.33333%; }
-  .offset-md-8 {
-    margin-left: 66.66667%; }
-  .offset-md-9 {
-    margin-left: 75%; }
-  .offset-md-10 {
-    margin-left: 83.33333%; }
-  .offset-md-11 {
-    margin-left: 91.66667%; } }
-
-@media (min-width: 1700px) {
-  .col-lg-1 {
-    -ms-flex-preferred-size: 8.33333%;
-    flex-basis: 8.33333%;
-    max-width: 8.33333%; }
-  .col-lg-2 {
-    -ms-flex-preferred-size: 16.66667%;
-    flex-basis: 16.66667%;
-    max-width: 16.66667%; }
-  .col-lg-3 {
-    -ms-flex-preferred-size: 25%;
-    flex-basis: 25%;
-    max-width: 25%; }
-  .col-lg-4 {
-    -ms-flex-preferred-size: 33.33333%;
-    flex-basis: 33.33333%;
-    max-width: 33.33333%; }
-  .col-lg-5 {
-    -ms-flex-preferred-size: 41.66667%;
-    flex-basis: 41.66667%;
-    max-width: 41.66667%; }
-  .col-lg-6 {
-    -ms-flex-preferred-size: 50%;
-    flex-basis: 50%;
-    max-width: 50%; }
-  .col-lg-7 {
-    -ms-flex-preferred-size: 58.33333%;
-    flex-basis: 58.33333%;
-    max-width: 58.33333%; }
-  .col-lg-8 {
-    -ms-flex-preferred-size: 66.66667%;
-    flex-basis: 66.66667%;
-    max-width: 66.66667%; }
-  .col-lg-9 {
-    -ms-flex-preferred-size: 75%;
-    flex-basis: 75%;
-    max-width: 75%; }
-  .col-lg-10 {
-    -ms-flex-preferred-size: 83.33333%;
-    flex-basis: 83.33333%;
-    max-width: 83.33333%; }
-  .col-lg-11 {
-    -ms-flex-preferred-size: 91.66667%;
-    flex-basis: 91.66667%;
-    max-width: 91.66667%; }
-  .col-lg-12 {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    max-width: 100%; }
-  .offset-lg-0 {
-    margin-left: 0%; }
-  .offset-lg-1 {
-    margin-left: 8.33333%; }
-  .offset-lg-2 {
-    margin-left: 16.66667%; }
-  .offset-lg-3 {
-    margin-left: 25%; }
-  .offset-lg-4 {
-    margin-left: 33.33333%; }
-  .offset-lg-5 {
-    margin-left: 41.66667%; }
-  .offset-lg-6 {
-    margin-left: 50%; }
-  .offset-lg-7 {
-    margin-left: 58.33333%; }
-  .offset-lg-8 {
-    margin-left: 66.66667%; }
-  .offset-lg-9 {
-    margin-left: 75%; }
-  .offset-lg-10 {
-    margin-left: 83.33333%; }
-  .offset-lg-11 {
-    margin-left: 91.66667%; } }
-
 .btn-classic {
   background: #eee;
   border-color: #ccc;
@@ -641,9 +421,9 @@ a {
 
 .list-reset {
   list-style: none;
-  margin: 0;
-  padding: 0; }
+  margin: 0; }
   .list-reset li {
+    padding: 0;
     display: inline-block; }
 
 .clearfix:after {
@@ -681,18 +461,6 @@ a {
 
 .hide {
   display: none; }
-
-@media (min-width: 640px) {
-  .visible-mobile {
-    display: inline-block; }
-  .hide-mobile {
-    display: none; } }
-
-@media (min-width: 1024px) {
-  .visible-tablet {
-    display: inline-block; }
-  .hide-tablet {
-    display: none; } }
 
 label,
 legend {
@@ -736,6 +504,7 @@ legend {
   border-radius: .2rem;
   -webkit-transition: border 200ms ease, -webkit-box-shadow 200ms ease;
   transition: border 200ms ease, -webkit-box-shadow 200ms ease;
+  -o-transition: border 200ms ease, box-shadow 200ms ease;
   transition: border 200ms ease, box-shadow 200ms ease;
   transition: border 200ms ease, box-shadow 200ms ease, -webkit-box-shadow 200ms ease; }
   .form-input:hover {
