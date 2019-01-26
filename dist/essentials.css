@@ -709,6 +709,30 @@ a {
 .hide {
   display: none; }
 
+@media (max-width: 768px) {
+  .visible-xs {
+    display: inline-block; }
+  .hide-xs {
+    display: none; } }
+
+@media (max-width: 990px) {
+  .visible-sm {
+    display: inline-block; }
+  .hide-sm {
+    display: none; } }
+
+@media (max-width: 1280px) {
+  .visible-md {
+    display: inline-block; }
+  .hide-md {
+    display: none; } }
+
+@media (min-width: 1280px) {
+  .visible-lg {
+    display: inline-block; }
+  .hide-lg {
+    display: none; } }
+
 label,
 legend {
   display: block;

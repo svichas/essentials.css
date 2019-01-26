@@ -4,35 +4,38 @@
 .hide {
     display: none;
 }
-@include respond(">mobile") {
-    .visible-mobile {
+@include respond("<small") {
+     .visible-xs {
+        display: inline-block;
+     }
+     .hide-xs {
+        display: none;
+     }
+}
+
+@include respond("<medium") {
+    .visible-sm {
         display: inline-block;
     }
-    .hide-mobile {
+    .hide-sm {
         display: none;
     }
 }
-@include respond(">tablet") {
-    .visible-tablet {
+
+@include respond("<large") {
+    .visible-md {
         display: inline-block;
     }
-    .hide-tablet {
+    .hide-md {
         display: none;
     }
 }
-@include respond(">dekstop") {
-    .visible-desktop {
+
+@include respond(">large") {
+    .visible-lg {
         display: inline-block;
     }
-    .hide-desktop {
-        display: none;
-    }
-}
-@include respond(">dekstop-large") {
-    .visible-desktop-lg {
-        display: inline-block;
-    }
-    .hide-desktop-lg {
+    .hide-lg {
         display: none;
     }
 }
