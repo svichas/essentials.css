@@ -1,33 +1,48 @@
 label,
 legend {
-    display: block;
-    font-size: 1.3rem;
-    font-weight: 700;
+     display: block;
+     font-size: 1.3rem;
+     font-weight: 700;
 }
 
 .form {
-  label {
-    font-size: 16px;
-    font-weight: normal;
-    margin-bottom: 3px;
-  }
+     label {
+          font-size: 16px;
+          font-weight: normal;
+          margin-bottom: 3px;
+     }
+
+     width: 100%;
+
+     &.sm {
+          max-width: 320px;
+     }
+
+     &.md {
+          max-width: 720px;
+     }
+
+     &.lg {
+          max-width: 920px;
+     }
 }
 
 .form-group {
-  display: flex;
+     display: flex;
+     margin: 0 -10px;
 
-  .form-control {
-    flex: 1;
-    margin: 0 10px;
-  }
+     .form-control {
+          flex: 1;
+          margin: 0 10px;
+     }
 
-  .form-input {
-    width: 100%;
-  }
+     .form-input {
+          width: 100%;
+     }
 
-  + .form-group {
-    margin-top: 10px;
-  }
+     + .form-group {
+          margin-top: 10px;
+     }
 }
 
 .form-input {
@@ -49,5 +64,10 @@ legend {
     &:focus {
         box-shadow: 0px 0px .3rem $blue;
         border-color: $blue;
+    }
+
+    &[disabled] {
+         background-color: hex_opacity($gray, .3);
+         border-color: $gray;
     }
 }
